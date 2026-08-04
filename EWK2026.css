@@ -28,19 +28,30 @@
 
 html.ewk2026-active,
 body.ewk2026-active {
+  width: 100% !important;
+  min-height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
   overflow-x: hidden !important;
   background: #080b10 !important;
+}
+
+/*
+ * EWK 섹션이 감지된 페이지에서만 Sixshop 원본 화면 전체를 숨깁니다.
+ * 랜딩페이지는 body의 직접 자식이므로 Sixshop의 본문 재렌더링에 덮이지 않습니다.
+ */
+body.ewk2026-active > :not(#ewk2026-app) {
+  display: none !important;
 }
 
 #ewk2026-app {
   display: block !important;
   position: relative !important;
-  z-index: 1 !important;
-  width: 100vw !important;
+  z-index: 2147483000 !important;
+  width: 100% !important;
   max-width: none !important;
   min-height: 100vh !important;
-  margin-left: calc(50% - 50vw) !important;
-  margin-right: calc(50% - 50vw) !important;
+  margin: 0 !important;
   padding: 0 !important;
   isolation: isolate;
   overflow-x: clip;
