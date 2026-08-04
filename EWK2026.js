@@ -271,9 +271,6 @@
     section.classList.add('ewk2026-target-section');
     item.classList.add('ewk2026-target-item');
     mount.classList.add('ewk2026-target-mount');
-
-    // 블로그 본문의 임시 문구를 포함한 기존 콘텐츠만 교체합니다.
-    mount.replaceChildren();
   };
 
   const mountLandingPage = () => {
@@ -284,15 +281,19 @@
 
     window[BOOTSTRAP_KEY] = true;
     setPageMetadata();
-    document.documentElement.classList.add('ewk2026-active');
-    document.body.classList.add('ewk2026-active');
     prepareTargetSection(targets);
 
+    // Sixshop가 블로그 본문 DOM을 다시 렌더링해도 랜딩페이지가 사라지지 않도록
+    // 관리 대상인 itemElement 내부가 아니라 body의 직접 자식으로 삽입합니다.
     const app = document.createElement('div');
     app.id = 'ewk2026-app';
-    app.setAttribute('data-ewk2026-version', '1.1.0');
+    app.setAttribute('data-ewk2026-version', '1.2.0');
     app.innerHTML = PAGE_HTML;
-    targets.mount.appendChild(app);
+    document.body.appendChild(app);
+
+    // app을 먼저 삽입한 뒤 활성 클래스를 붙여 기존 Sixshop 화면을 한 번에 숨깁니다.
+    document.documentElement.classList.add('ewk2026-active');
+    document.body.classList.add('ewk2026-active');
 
     const defaultConfig = {
           eventTitleLogoUrl: "",
