@@ -83,8 +83,8 @@
 <article class="experience-card"><span class="exp-no">01 · ENCY 3.0</span><h3>글로벌 ENCY Software가 제시하는 새로운 기술 방향</h3><p>ENCY 3.0의 주요 변화와 제조 프로그래밍이 향하는 다음 흐름을 글로벌 키노트를 통해 확인합니다.</p><div class="exp-graphic"></div></article>
 <article class="experience-card"><span class="exp-no">02 · TURN-MILL &amp; 5-AXIS</span><h3>턴밀과 5축 가공 프로그래밍 데모</h3><p>복합가공과 5축 가공을 위한 ENCY CAM의 프로그래밍 흐름을 실제 화면으로 확인합니다.</p><div class="exp-graphic"></div></article>
 <article class="experience-card"><span class="exp-no">03 · DESIGN TO CAM</span><h3>Autodesk Fusion 설계부터 ENCY CAM까지</h3><p>Autodesk Fusion 설계 데이터가 ENCY CAM 프로그래밍과 가공 준비로 연결되는 과정을 보여드립니다.</p><div class="exp-graphic"></div></article>
-<article class="experience-card"><span class="exp-no">04 · AUTOMATION</span><h3>ENCY Hyper와 제조 자동화 기술</h3><p>소프트웨어와 실제 제조 환경을 연결하는 ENCY Hyper의 기술 및 적용 방향을 소개합니다.</p><div class="exp-graphic"></div></article>
-<article class="experience-card"><span class="exp-no">05 · YC SOLUTION SHOWCASE</span><h3>제조 현장을 확장하는 YC 솔루션 소개</h3><p>넥스트카본, 스마트대쉬, 넥스트세이프를 포함한 YC의 솔루션을 하나의 세션에서 확인합니다.</p><div class="exp-graphic"></div></article>
+<article class="experience-card"><span class="exp-no">04 · AUTOMATION</span><h3>ENCY Hyper와 제조 자동화 기술</h3><p>로봇 자동화 시스템의 실제 구현을 위한 로봇 시뮬레이션 및 실시간 제어 소프트웨어를 소개합니다.</p><div class="exp-graphic"></div></article>
+<article class="experience-card"><span class="exp-no">05 · YC SOLUTION SHOWCASE</span><h3 class="yc-solution-title">제조 현장을 확장하는 YC 솔루션 소개</h3><p>CAM 공정을 넘어 스마트팩토리 구축을 위한 에너지관리 솔루션(FEMS), 생산관리 솔루션(MES) 및 안전 관리 솔루션을 선보입니다.</p><div class="exp-graphic"></div></article>
 </div>
 </div>
 </section>
@@ -94,7 +94,7 @@
 <div><h2 class="section-title small speaker-main-title">ENCY Software 리더십이<br/>서울에서 전하는 글로벌 인사이트</h2><span class="micro-en">Meet the leaders shaping the future of ENCY Software.</span></div>
 <p class="speakers-note">ENCY Software CEO와 Channel Sales Director가 모두 현장에 참석합니다.</p>
 </div>
-<div class="speakers-grid"><article class="speaker-card primary-speaker"><span class="speaker-badge">FEATURED LEADER</span><div class="speaker-media" style="background-image:linear-gradient(to top, rgba(5,8,12,.68), rgba(5,8,12,.05) 58%),url('https://ik.imagekit.io/smartware/26conference/ewk2026-landing/speaker_andrei_kharatsidi.jpg');background-size:cover;background-position:center top;"></div><div class="speaker-info"><span class="speaker-role">CEO · ENCY SOFTWARE</span><h3 class="speaker-name">Andrei<br/>Kharatsidi</h3><p class="speaker-title">ENCY Software CEO</p></div></article><article class="speaker-card"><div class="speaker-media" style="background-image:linear-gradient(to top, rgba(5,8,12,.68), rgba(5,8,12,.05) 58%),url('https://ik.imagekit.io/smartware/26conference/ewk2026-landing/speaker_andrew_lovygin.jpg');background-size:cover;background-position:center top;"></div><div class="speaker-info"><span class="speaker-role">CHANNEL SALES DIRECTOR · ENCY SOFTWARE</span><h3 class="speaker-name">Andrew<br/>Lovygin</h3><p class="speaker-title">Channel Sales Director, ENCY Software</p></div></article><article class="speaker-card host-speaker"><span class="speaker-badge">HOST</span><div class="speaker-media" style="background-image:linear-gradient(to top, rgba(5,8,12,.68), rgba(5,8,12,.05) 58%),url('https://ik.imagekit.io/smartware/26conference/ewk2026-landing/speaker_kim_yoocheon.jpg');background-size:cover;background-position:center top;"></div><div class="speaker-info"><span class="speaker-role">HOST · YC CORPORATION</span><h3 class="speaker-name">Kim<br/>Yoocheon</h3><p class="speaker-title">CEO, YC Corporation</p></div></article></div>
+<div class="speakers-grid"><article class="speaker-card primary-speaker"><span class="speaker-badge">FEATURED LEADER</span><div class="speaker-media" style="background-image:linear-gradient(to top, rgba(5,8,12,.68), rgba(5,8,12,.05) 58%),url('https://ik.imagekit.io/smartware/26conference/ewk2026-landing/speaker_andrei_kharatsidi.jpg');background-size:cover;background-position:center top;"></div><div class="speaker-info"><span class="speaker-role">CEO · ENCY SOFTWARE</span><h3 class="speaker-name">Andrei<br/>Kharatsidi</h3><p class="speaker-title">ENCY Software CEO</p></div></article><article class="speaker-card"><div class="speaker-media" style="background-image:linear-gradient(to top, rgba(5,8,12,.68), rgba(5,8,12,.05) 58%),url('https://ik.imagekit.io/smartware/26conference/ewk2026-landing/speaker_andrew_lovygin.jpg?v=20260805');background-size:cover;background-position:center top;"></div><div class="speaker-info"><span class="speaker-role">CHANNEL SALES DIRECTOR · ENCY SOFTWARE</span><h3 class="speaker-name">Andrew<br/>Lovygin</h3><p class="speaker-title">Channel Sales Director, ENCY Software</p></div></article><article class="speaker-card host-speaker"><span class="speaker-badge">HOST</span><div class="speaker-media" style="background-image:linear-gradient(to top, rgba(5,8,12,.68), rgba(5,8,12,.05) 58%),url('https://ik.imagekit.io/smartware/26conference/ewk2026-landing/speaker_kim_yoocheon.jpg');background-size:cover;background-position:center top;"></div><div class="speaker-info"><span class="speaker-role">HOST · YC CORPORATION</span><h3 class="speaker-name">Kim<br/>Yoochun</h3><p class="speaker-title">CEO, YC Corporation</p></div></article></div>
 </div>
 </section>
 <section class="section section-dark program-centered" id="program">
@@ -198,7 +198,7 @@
 선택 동의에 동의하지 않아도 EWK 2026 참가 신청은 가능합니다.</div></div>
 <p class="form-info-note">※ 행사 현장에서는 기록 및 홍보를 위한 사진·영상 촬영이 진행됩니다. 동반 참석자를 포함한 모든 참석자는 1인 1건으로 개별 신청해 주세요.</p></section>
 <div class="submit-row">
-<p class="submit-note registration-note-one-line">행사 공간 운영 상황에 따라 참가 신청이 사전에 마감될 수 있습니다. 신청 내용 수정이 필요한 경우 행사 문의처로 연락해 주세요.</p>
+<p class="submit-note registration-note-one-line">참가 신청은 참석 확정을 의미하지 않습니다. 운영팀 확인 후 참석 확정 안내를 받은 분에 한해 행사에 참가할 수 있습니다.</p>
 <button class="btn btn-primary" type="submit">참가 신청 완료하기 </button>
 </div>
 </form>
@@ -208,7 +208,7 @@
 <div class="container faq-layout">
 <div><h2 class="section-title small">자주 묻는 질문</h2><span class="micro-en">Frequently asked questions about EWK 2026.</span></div>
 <div class="faq-list">
-<div class="faq-item open"><button class="faq-question" type="button"><span>참가 신청만 하면 바로 참석할 수 있나요?</span><span class="faq-icon">+</span></button><div class="faq-answer"><p>신청 접수 후 운영팀에서 신청 내용을 확인합니다. 이후 입력하신 이메일로 참석 확정 안내를 보내드리며, 필요 시 전화 또는 문자로 참석 여부를 확인할 수 있습니다.</p></div></div>
+<div class="faq-item open"><button class="faq-question" type="button"><span>참가 신청만 하면 바로 참석할 수 있나요?</span><span class="faq-icon">+</span></button><div class="faq-answer"><p>아니요. 참가 신청 접수 후 운영팀에서 신청 내용을 확인하며, 참석 확정 안내를 받은 분에 한해 행사에 참가할 수 있습니다. 확정 안내는 입력하신 이메일로 발송되며, 필요한 경우 전화 또는 문자로 참석 여부를 확인합니다.</p></div></div>
 <div class="faq-item"><button class="faq-question" type="button"><span>참가비가 있나요?</span><span class="faq-icon">+</span></button><div class="faq-answer"><p>EWK 2026은 무료로 진행됩니다. 사전 신청과 참석 확인이 필요하며, 행사 공간 운영 상황에 따라 신청이 사전에 마감될 수 있습니다.</p></div></div>
 <div class="faq-item"><button class="faq-question" type="button"><span>동반 참석자는 함께 입장할 수 있나요?</span><span class="faq-icon">+</span></button><div class="faq-answer"><p>참석을 희망하는 모든 분은 개별 신청이 필요합니다. 동반 참석자를 포함하여 1인 1건으로 각각 신청해 주세요.</p></div></div>
 <div class="faq-item"><button class="faq-question" type="button"><span>네트워킹 리셉션과 디너는 누구나 참여할 수 있나요?</span><span class="faq-icon">+</span></button><div class="faq-answer"><p>행사 참석자를 대상으로 진행되며, 운영 준비를 위해 참석 의사를 별도로 확인할 수 있습니다.</p></div></div>
@@ -434,61 +434,17 @@
             const embedUrl = buildYouTubeEmbedUrl(watchUrl);
             if (!watchUrl || !embedUrl) return;
 
-            const controls = document.createElement('div');
-            controls.className = 'video-overlay-controls';
-            controls.innerHTML = `
-              <button type="button" class="video-play-button" aria-label="영상 재생">
-                <span aria-hidden="true">▶</span>
-                <span>영상 재생</span>
-              </button>
-              <a class="video-youtube-link" href="${watchUrl}" target="_blank" rel="noopener noreferrer">
-                YouTube에서 보기
-              </a>
-            `;
-            slot.appendChild(controls);
+            const iframe = document.createElement('iframe');
+            iframe.src = embedUrl;
+            iframe.title = slot.getAttribute('aria-label') || 'EWK 2026 video';
+            iframe.loading = 'lazy';
+            iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+            iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+            iframe.allowFullscreen = true;
 
-            const playVideo = () => {
-              const isProductionHost =
-                /(^|\.)encycadcam\.co\.kr$/i.test(window.location.hostname);
-
-              // 다운로드 HTML, 샌드박스 미리보기, 로컬 파일 환경은
-              // YouTube가 요구하는 정상적인 Referer를 제공하지 못할 수 있으므로
-              // 오류 153을 피하기 위해 공식 YouTube 페이지로 이동합니다.
-              if (!isProductionHost) {
-                const notice = slot.querySelector('.video-preview-notice');
-                if (notice) {
-                  notice.classList.add('show');
-                  window.setTimeout(() => notice.classList.remove('show'), 2600);
-                }
-                return;
-              }
-
-              if (slot.dataset.loaded === 'true') return;
-              slot.dataset.loaded = 'true';
-
-              const iframe = document.createElement('iframe');
-              iframe.src = embedUrl;
-              iframe.title = 'EWK 2026 video';
-              iframe.loading = 'eager';
-              iframe.referrerPolicy = 'strict-origin-when-cross-origin';
-              iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
-              iframe.allowFullscreen = true;
-
-              slot.innerHTML = '';
-              slot.appendChild(iframe);
-            };
-
-            slot.querySelector('.video-play-button')?.addEventListener('click', event => {
-              event.stopPropagation();
-              playVideo();
-            });
-
-            slot.addEventListener('keydown', event => {
-              if (event.key === 'Enter' || event.key === ' ') {
-                event.preventDefault();
-                playVideo();
-              }
-            });
+            slot.innerHTML = '';
+            slot.dataset.loaded = 'true';
+            slot.appendChild(iframe);
           });
 
           const onScroll = () => {
@@ -510,20 +466,79 @@
             menuBtn.setAttribute('aria-expanded', 'false');
           }));
 
-          let slideIndex = 0;
           const mediaTrack = document.getElementById('mediaTrack');
-          const slides = [...document.querySelectorAll('.media-slide')];
-          const updateSlider = () => {
-            if (!mediaTrack || !slides.length) return;
-            const gap = 18;
-            const width = slides[0].getBoundingClientRect().width + gap;
-            const maxIndex = Math.max(0, slides.length - (window.innerWidth < 760 ? 1 : 1.45));
-            slideIndex = Math.max(0, Math.min(slideIndex, Math.ceil(maxIndex)));
-            mediaTrack.style.transform = `translateX(${-slideIndex * width}px)`;
+          const nextSlideButton = document.getElementById('nextSlide');
+          const prevSlideButton = document.getElementById('prevSlide');
+          let isSliding = false;
+
+          const getSlideStep = () => {
+            const firstSlide = mediaTrack?.querySelector('.media-slide');
+            if (!firstSlide) return 0;
+            const styles = window.getComputedStyle(mediaTrack);
+            const gap = parseFloat(styles.columnGap || styles.gap || '0') || 0;
+            return firstSlide.getBoundingClientRect().width + gap;
           };
-          document.getElementById('nextSlide').addEventListener('click', () => { slideIndex += 1; updateSlider(); });
-          document.getElementById('prevSlide').addEventListener('click', () => { slideIndex -= 1; updateSlider(); });
-          window.addEventListener('resize', updateSlider);
+
+          const finishTrackTransition = (callback) => {
+            const onTransitionEnd = event => {
+              if (event.target !== mediaTrack || event.propertyName !== 'transform') return;
+              mediaTrack.removeEventListener('transitionend', onTransitionEnd);
+              callback();
+            };
+            mediaTrack.addEventListener('transitionend', onTransitionEnd);
+          };
+
+          const moveToNextSlide = () => {
+            if (!mediaTrack || isSliding || mediaTrack.children.length < 2) return;
+            const step = getSlideStep();
+            if (!step) return;
+
+            isSliding = true;
+            mediaTrack.style.transition = 'transform .55s cubic-bezier(.2,.7,.2,1)';
+            mediaTrack.style.transform = `translateX(${-step}px)`;
+
+            finishTrackTransition(() => {
+              mediaTrack.style.transition = 'none';
+              mediaTrack.appendChild(mediaTrack.firstElementChild);
+              mediaTrack.style.transform = 'translateX(0)';
+              mediaTrack.getBoundingClientRect();
+              mediaTrack.style.transition = '';
+              isSliding = false;
+            });
+          };
+
+          const moveToPreviousSlide = () => {
+            if (!mediaTrack || isSliding || mediaTrack.children.length < 2) return;
+            const step = getSlideStep();
+            if (!step) return;
+
+            isSliding = true;
+            mediaTrack.style.transition = 'none';
+            mediaTrack.insertBefore(mediaTrack.lastElementChild, mediaTrack.firstElementChild);
+            mediaTrack.style.transform = `translateX(${-step}px)`;
+            mediaTrack.getBoundingClientRect();
+
+            mediaTrack.style.transition = 'transform .55s cubic-bezier(.2,.7,.2,1)';
+            requestAnimationFrame(() => {
+              mediaTrack.style.transform = 'translateX(0)';
+            });
+
+            finishTrackTransition(() => {
+              mediaTrack.style.transition = '';
+              isSliding = false;
+            });
+          };
+
+          nextSlideButton?.addEventListener('click', moveToNextSlide);
+          prevSlideButton?.addEventListener('click', moveToPreviousSlide);
+          window.addEventListener('resize', () => {
+            if (!mediaTrack) return;
+            mediaTrack.style.transition = 'none';
+            mediaTrack.style.transform = 'translateX(0)';
+            mediaTrack.getBoundingClientRect();
+            mediaTrack.style.transition = '';
+            isSliding = false;
+          });
 
           document.querySelectorAll('.faq-question').forEach(button => {
             button.addEventListener('click', () => {
