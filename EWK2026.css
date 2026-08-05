@@ -2075,3 +2075,30 @@ body.ewk2026-active > :not(#ewk2026-app) {
       background-size: cover !important;
       background-position: center top !important;
     }
+
+/* =========================
+   EWK 2026 requested final refinements · 2026-08-05
+   ========================= */
+
+/* Keep only the YC solution card title on one line on desktop. */
+#ewk2026-app .yc-solution-title {
+  white-space: nowrap;
+}
+
+/* Ensure the existing TOP control is visible on PC and hidden on mobile. */
+@media (min-width: 761px) {
+  #ewk2026-app .top-button {
+    display: block !important;
+  }
+}
+
+@media (max-width: 760px) {
+  #ewk2026-app .yc-solution-title {
+    white-space: normal;
+  }
+
+  #ewk2026-app .top-button {
+    display: none !important;
+  }
+}
+
