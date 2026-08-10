@@ -213,7 +213,7 @@ body.ewk2026-active > :not(#ewk2026-app) {
     #ewk2026-app .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 28px; }
     #ewk2026-app .brand { display: flex; align-items: center; gap: 13px; min-width: 190px; }
     #ewk2026-app .brand-logo {
-      width: 118px;
+      width: 100px;
       height: 30px;
       object-fit: contain;
       object-position: left center;
@@ -738,7 +738,7 @@ body.ewk2026-active > :not(#ewk2026-app) {
       #ewk2026-app .section { padding: 92px 0; }
       #ewk2026-app .section-title { font-size: clamp(36px, 10.5vw, 54px); }
       #ewk2026-app .site-header { height: var(--header-h); }
-      #ewk2026-app .brand-logo { width: 104px; }
+      #ewk2026-app .brand-logo { width: 88px; }
       #ewk2026-app .hero { padding-top: calc(var(--header-h) + 44px); min-height: auto; }
       #ewk2026-app .hero h1 { font-size: clamp(48px, 15vw, 74px); }
       #ewk2026-app .hero-copy { font-size: 21px; }
