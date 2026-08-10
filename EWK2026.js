@@ -18,7 +18,7 @@
 <header class="site-header" id="header">
 <div class="container header-inner">
 <a aria-label="ENCY KOREA 홈" class="brand" href="#top">
-<img alt="EWK 2026" class="brand-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='block'" src="https://ik.imagekit.io/smartware/26conference/ewk2026-logo/ency-world-korea-white.png"/>
+<img alt="EWK 2026" class="brand-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='block'" src="https://ik.imagekit.io/smartware/26conference/ewk2026-logo/ency-world-korea-white.png?v=20260810"/>
 <span class="brand-fallback">ENCY KOREA</span>
 </a>
 <nav aria-label="주요 메뉴" class="header-nav" id="nav">
