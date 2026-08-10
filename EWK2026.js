@@ -18,7 +18,7 @@
 <header class="site-header" id="header">
 <div class="container header-inner">
 <a aria-label="ENCY KOREA 홈" class="brand" href="#top">
-<img alt="EWK 2026" class="brand-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='block'" src="https://ik.imagekit.io/smartware/26conference/ewk2026-logo/ewk%202026_white%20(2).png"/>
+<img alt="EWK 2026" class="brand-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='block'" src="https://ik.imagekit.io/smartware/26conference/ewk2026-logo/ency-world-korea-white.png"/>
 <span class="brand-fallback">ENCY KOREA</span>
 </a>
 <nav aria-label="주요 메뉴" class="header-nav" id="nav">
@@ -38,6 +38,9 @@
 <div class="container hero-grid">
 <div class="hero-content">
 <h1 class="sr-only">ENCY World 2026: Korean Edition</h1>
+<div class="event-title-logo" style="width:min(560px,72vw);min-height:auto;margin:0 auto 26px;">
+<img alt="EWK 2026" src="https://ik.imagekit.io/smartware/26conference/ewk2026-logo/ewk2026-wide-white.png" style="width:100%;height:auto;object-fit:contain;"/>
+</div>
 <p class="hero-copy"><strong>글로벌 CAD/CAM의 다음 기준,</strong><br/>서울에서 공개됩니다</p>
 <span class="micro-en">Discover the next standard in CAD/CAM, live in Seoul.</span>
 <p class="hero-subcopy">CAD/CAM부터 AI, 턴밀·5축 가공, 제조 자동화까지.<br/>ENCY KOREA와 ENCY Software가 제조 프로그래밍의 다음 변화를 실제 데모와 인사이트로 보여드립니다.</p>
@@ -94,7 +97,7 @@
 <div><h2 class="section-title small speaker-main-title">ENCY Software 리더십이<br/>서울에서 전하는 글로벌 인사이트</h2><span class="micro-en">Meet the leaders shaping the future of ENCY Software.</span></div>
 <p class="speakers-note">ENCY Software CEO와 Channel Sales Director가 모두 현장에 참석합니다.</p>
 </div>
-<div class="speakers-grid"><article class="speaker-card primary-speaker"><span class="speaker-badge">FEATURED LEADER</span><div class="speaker-media" style="background-image:linear-gradient(to top, rgba(5,8,12,.68), rgba(5,8,12,.05) 58%),url('https://ik.imagekit.io/smartware/26conference/ewk2026-landing/speaker_andrei_kharatsidi.jpg');background-size:cover;background-position:center top;"></div><div class="speaker-info"><span class="speaker-role">CEO · ENCY SOFTWARE</span><h3 class="speaker-name">Andrei<br/>Kharatsidi</h3><p class="speaker-title">ENCY Software CEO</p></div></article><article class="speaker-card"><div class="speaker-media" style="background-image:linear-gradient(to top, rgba(5,8,12,.68), rgba(5,8,12,.05) 58%),url('https://ik.imagekit.io/smartware/26conference/ewk2026-landing/speaker_andrew_lovygin.jpg?v=20260805');background-size:cover;background-position:center top;"></div><div class="speaker-info"><span class="speaker-role">CHANNEL SALES DIRECTOR · ENCY SOFTWARE</span><h3 class="speaker-name">Andrew<br/>Lovygin</h3><p class="speaker-title">Channel Sales Director, ENCY Software</p></div></article><article class="speaker-card host-speaker"><span class="speaker-badge">HOST</span><div class="speaker-media" style="background-image:linear-gradient(to top, rgba(5,8,12,.68), rgba(5,8,12,.05) 58%),url('https://ik.imagekit.io/smartware/26conference/ewk2026-landing/speaker_kim_yoocheon.jpg');background-size:cover;background-position:center top;"></div><div class="speaker-info"><span class="speaker-role">HOST · YC CORPORATION</span><h3 class="speaker-name">Yoochun<br/>Kim</h3><p class="speaker-title">CEO, YC Corporation</p></div></article></div>
+<div class="speakers-grid"><article class="speaker-card primary-speaker"><span class="speaker-badge">FEATURED LEADER</span><div class="speaker-media" style="background-image:linear-gradient(to top, rgba(5,8,12,.68), rgba(5,8,12,.05) 58%),url('https://ik.imagekit.io/smartware/26conference/ewk2026-landing/speaker_andrei_kharatsidi.jpg');background-size:cover;background-position:center top;"></div><div class="speaker-info"><span class="speaker-role">CEO · ENCY SOFTWARE</span><h3 class="speaker-name">Andrei<br/>Kharatsidi</h3><p class="speaker-title">ENCY Software CEO</p></div></article><article class="speaker-card"><div class="speaker-media" style="background-image:linear-gradient(to top, rgba(5,8,12,.68), rgba(5,8,12,.05) 58%),url('https://ik.imagekit.io/smartware/26conference/ewk2026-landing/speaker_andrew_lovygin.jpg?v=20260805');background-size:cover;background-position:center top;"></div><div class="speaker-info"><span class="speaker-role">CHANNEL SALES DIRECTOR · ENCY SOFTWARE</span><h3 class="speaker-name">Andrew<br/>Lovygin</h3><p class="speaker-title">Channel Sales Director, ENCY Software</p></div></article><article class="speaker-card host-speaker"><span class="speaker-badge">HOST</span><div class="speaker-media" style="background-image:linear-gradient(to top, rgba(5,8,12,.68), rgba(5,8,12,.05) 58%),url('https://ik.imagekit.io/smartware/26conference/ewk2026-landing/speaker_kim_yoocheon.jpg');background-size:cover;background-position:center top;"></div><div class="speaker-info"><span class="speaker-role">HOST · YC CORPORATION</span><h3 class="speaker-name">Kim<br/>Yoochun</h3><p class="speaker-title">CEO, YC Corporation</p></div></article></div>
 </div>
 </section>
 <section class="section section-dark program-centered" id="program">
