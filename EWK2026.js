@@ -224,7 +224,7 @@
 <div class="container faq-layout">
 <div><h2 class="section-title small">자주 묻는 질문</h2><span class="micro-en">Frequently asked questions about EWK 2026.</span></div>
 <div class="faq-list">
-<div class="faq-item open"><button class="faq-question" type="button"><span>참가 신청만 하면 바로 참석할 수 있나요?</span><span class="faq-icon">+</span></button><div class="faq-answer"><p>아니요. 참가 신청 접수 후 운영팀에서 신청 내용을 확인하며, 참석 확정 안내를 받은 분에 한해 행사에 참가할 수 있습니다. 확정 안내는 입력하신 이메일로 발송되며, 필요한 경우 전화 또는 문자로 참석 여부를 확인합니다.</p></div></div>
+<div class="faq-item open"><button class="faq-question" type="button"><span>참가 신청만 하면 바로 참석할 수 있나요?</span><span class="faq-icon">+</span></button><div class="faq-answer"><p>참가 신청 접수 후 운영팀에서 신청 내용을 확인하며, 참석 확정 안내를 받은 분에 한해 행사에 참가할 수 있습니다. 확정 안내는 입력하신 이메일로 발송되며, 필요한 경우 전화 또는 문자로 참석 여부를 확인합니다.</p></div></div>
 <div class="faq-item"><button class="faq-question" type="button"><span>참가비가 있나요?</span><span class="faq-icon">+</span></button><div class="faq-answer"><p>EWK 2026은 무료로 진행됩니다. 사전 신청과 참석 확인이 필요하며, 행사 공간 운영 상황에 따라 신청이 사전에 마감될 수 있습니다.</p></div></div>
 <div class="faq-item"><button class="faq-question" type="button"><span>동반 참석자는 함께 입장할 수 있나요?</span><span class="faq-icon">+</span></button><div class="faq-answer"><p>참석을 희망하는 모든 분은 개별 신청이 필요합니다. 동반 참석자를 포함하여 1인 1건으로 각각 신청해 주세요.</p></div></div>
 <div class="faq-item"><button class="faq-question" type="button"><span>네트워킹 리셉션과 디너는 누구나 참여할 수 있나요?</span><span class="faq-icon">+</span></button><div class="faq-answer"><p>행사 참석자를 대상으로 진행되며, 운영 준비를 위해 참석 의사를 별도로 확인할 수 있습니다.</p></div></div>
