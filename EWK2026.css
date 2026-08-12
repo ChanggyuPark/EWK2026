@@ -2102,3 +2102,121 @@ body.ewk2026-active > :not(#ewk2026-app) {
   }
 }
 
+/* =========================
+   EWK 2026 official poster
+   ========================= */
+#ewk2026-app .poster-section {
+  padding: 88px 0;
+}
+
+#ewk2026-app .poster-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 36px;
+}
+
+#ewk2026-app .poster-head-copy {
+  max-width: 760px;
+}
+
+#ewk2026-app .poster-intro {
+  margin: 20px 0 0;
+  max-width: 680px;
+  color: #59636e;
+  font-size: clamp(15px, 1.2vw, 18px);
+  line-height: 1.7;
+}
+
+#ewk2026-app .poster-download {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+#ewk2026-app .poster-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  width: min(100%, 940px);
+  margin: 42px auto 0;
+}
+
+#ewk2026-app .poster-card {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid rgba(10,13,18,.09);
+  border-radius: 18px;
+  background: #e9edef;
+  box-shadow: 0 14px 38px rgba(10,13,18,.07);
+}
+
+#ewk2026-app .poster-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 575px;
+  object-fit: contain;
+}
+
+#ewk2026-app .poster-swipe-hint {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  #ewk2026-app .poster-section {
+    padding: 68px 0;
+  }
+
+  #ewk2026-app .poster-head {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  #ewk2026-app .poster-download {
+    width: 100%;
+  }
+
+  #ewk2026-app .poster-gallery {
+    display: flex;
+    gap: 14px;
+    width: 100%;
+    max-width: none;
+    margin-top: 32px;
+    padding: 0 15% 2px 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-padding-left: 0;
+    overscroll-behavior-x: contain;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  #ewk2026-app .poster-gallery::-webkit-scrollbar {
+    display: none;
+  }
+
+  #ewk2026-app .poster-card {
+    flex: 0 0 80%;
+    border-radius: 14px;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    box-shadow: 0 10px 28px rgba(10,13,18,.06);
+  }
+
+  #ewk2026-app .poster-card img {
+    max-height: none;
+  }
+
+  #ewk2026-app .poster-swipe-hint {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 12px 0 0;
+    color: #7a838c;
+    font: 600 11px/1.4 Montserrat, Pretendard, sans-serif;
+    letter-spacing: .02em;
+  }
+}
+
