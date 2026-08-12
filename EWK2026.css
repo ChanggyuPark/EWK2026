@@ -2111,21 +2111,28 @@ body.ewk2026-active > :not(#ewk2026-app) {
 
 #ewk2026-app .poster-head {
   display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: 36px;
+  align-items: center;
+  justify-content: center;
 }
 
 #ewk2026-app .poster-head-copy {
   max-width: 760px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 #ewk2026-app .poster-intro {
-  margin: 20px 0 0;
+  margin: 20px auto 0;
   max-width: 680px;
   color: #59636e;
   font-size: clamp(15px, 1.2vw, 18px);
   line-height: 1.7;
+}
+
+#ewk2026-app .poster-download-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
 }
 
 #ewk2026-app .poster-download {
@@ -2168,9 +2175,11 @@ body.ewk2026-active > :not(#ewk2026-app) {
   }
 
   #ewk2026-app .poster-head {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 24px;
+    align-items: center;
+  }
+
+  #ewk2026-app .poster-download-wrap {
+    margin-top: 22px;
   }
 
   #ewk2026-app .poster-download {
