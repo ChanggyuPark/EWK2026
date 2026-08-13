@@ -22,12 +22,14 @@
 <span class="brand-fallback">ENCY KOREA</span>
 </a>
 <nav aria-label="주요 메뉴" class="header-nav" id="nav">
-<a href="#experience">행사 소개</a>
+<a href="#top">행사 소개</a>
 <a href="#experience">주요 내용</a>
 <a href="#speakers">글로벌 연사</a>
 <a href="#program">프로그램</a>
 <a href="#venue">오시는 길</a>
+<a class="mobile-home-link" href="https://www.encycadcam.co.kr/" rel="noopener" target="_blank">공식 홈페이지</a>
 </nav>
+<a class="btn btn-ghost btn-sm header-home-btn" href="https://www.encycadcam.co.kr/" rel="noopener" target="_blank">공식 홈페이지</a>
 <a class="btn btn-primary btn-sm" href="#registration">참가 신청하기 </a>
 <button aria-expanded="false" aria-label="메뉴 열기" class="menu-btn" id="menuBtn" type="button"><span></span></button>
 </div>
@@ -198,7 +200,7 @@
 <div class="choice"><input id="hard1" name="hardware" type="checkbox" value="CNC 공작기계"/><label for="hard1">CNC 공작기계</label></div><div class="choice"><input id="hard2" name="hardware" type="checkbox" value="산업용 로봇팔"/><label for="hard2">산업용 로봇팔</label></div><div class="choice"><input id="hard3" name="hardware" type="checkbox" value="레이저 가공기"/><label for="hard3">레이저 가공기</label></div><div class="choice"><input id="hard4" name="hardware" type="checkbox" value="3D 프린터"/><label for="hard4">3D 프린터</label></div><div class="choice"><input id="hard5" name="hardware" type="checkbox" value="협동로봇"/><label for="hard5">협동로봇</label></div><div class="choice"><input id="hard6" name="hardware" type="checkbox" value="센서·IoT"/><label for="hard6">센서·IoT 장비</label></div><div class="choice"><input id="hard7" name="hardware" type="checkbox" value="보유 장비 없음"/><label for="hard7">보유 장비 없음</label></div><div class="choice"><input id="hard8" name="hardware" type="checkbox" value="기타"/><label for="hard8">기타</label></div>
 </div></fieldset>
 <div class="field"><label for="consulting">기술 상담 희망 여부</label><select id="consulting" name="consulting"><option value="">선택해 주세요</option><option>예, 1:1 기술 상담을 희망합니다</option><option>아니요, 우선 정보만 받아보겠습니다</option></select></div>
-<div class="field"><label for="source">유입 경로</label><select id="source" name="source"><option value="">선택해 주세요</option><option>광고(SNS·검색)</option><option>지인·동료 추천</option><option>파트너사·장비사 소개</option><option>전시회·행사 부스</option><option>ENCY 기존 고객</option><option>기타</option></select></div>
+<div class="field"><label for="source">유입 경로</label><select id="source" name="source"><option value="">선택해 주세요</option><option>광고(SNS·검색)</option><option>지인·동료 추천</option><option>YC코퍼레이션(ENCY KOREA) 직원 추천</option><option>파트너사·장비사 소개</option><option>전시회·행사 부스</option><option>ENCY 기존 고객</option><option>기타</option></select></div>
 </div>
 </section>
 <section class="form-card">
@@ -214,7 +216,7 @@
 선택 동의에 동의하지 않아도 EWK 2026 참가 신청은 가능합니다.</div></div>
 <p class="form-info-note">※ 행사 현장에서는 기록 및 홍보를 위한 사진·영상 촬영이 진행됩니다. 동반 참석자를 포함한 모든 참석자는 1인 1건으로 개별 신청해 주세요.</p></section>
 <div class="submit-row">
-<p class="submit-note registration-note-one-line">참가 신청은 참석 확정을 의미하지 않습니다. 운영팀 확인 후 참석 확정 안내를 받은 분에 한해 행사에 참가할 수 있습니다.</p>
+<p class="submit-note registration-note-one-line">참가 신청은 참석 확정을 의미하지 않습니다. <strong>운영팀 확인 후 참석 확정 안내를 받은 분에 한해 행사에 참가할 수 있습니다.</strong></p>
 <button class="btn btn-primary" type="submit">참가 신청 완료하기 </button>
 </div>
 </form>
@@ -224,7 +226,7 @@
 <div class="container faq-layout">
 <div><h2 class="section-title small">자주 묻는 질문</h2><span class="micro-en">Frequently asked questions about EWK 2026.</span></div>
 <div class="faq-list">
-<div class="faq-item open"><button class="faq-question" type="button"><span>참가 신청만 하면 바로 참석할 수 있나요?</span><span class="faq-icon">+</span></button><div class="faq-answer"><p>참가 신청 접수 후 운영팀에서 신청 내용을 확인하며, 참석 확정 안내를 받은 분에 한해 행사에 참가할 수 있습니다. 확정 안내는 입력하신 이메일로 발송되며, 필요한 경우 전화 또는 문자로 참석 여부를 확인합니다.</p></div></div>
+<div class="faq-item open"><button class="faq-question" type="button"><span>참가 신청만 하면 바로 참석할 수 있나요?</span><span class="faq-icon">+</span></button><div class="faq-answer"><p>아니요. 참가 신청 접수 후 운영팀에서 신청 내용을 확인하며, 참석 확정 안내를 받은 분에 한해 행사에 참가할 수 있습니다. 확정 안내는 입력하신 이메일로 발송되며, 필요한 경우 전화 또는 문자로 참석 여부를 확인합니다.</p></div></div>
 <div class="faq-item"><button class="faq-question" type="button"><span>참가비가 있나요?</span><span class="faq-icon">+</span></button><div class="faq-answer"><p>EWK 2026은 무료로 진행됩니다. 사전 신청과 참석 확인이 필요하며, 행사 공간 운영 상황에 따라 신청이 사전에 마감될 수 있습니다.</p></div></div>
 <div class="faq-item"><button class="faq-question" type="button"><span>동반 참석자는 함께 입장할 수 있나요?</span><span class="faq-icon">+</span></button><div class="faq-answer"><p>참석을 희망하는 모든 분은 개별 신청이 필요합니다. 동반 참석자를 포함하여 1인 1건으로 각각 신청해 주세요.</p></div></div>
 <div class="faq-item"><button class="faq-question" type="button"><span>네트워킹 리셉션과 디너는 누구나 참여할 수 있나요?</span><span class="faq-icon">+</span></button><div class="faq-answer"><p>행사 참석자를 대상으로 진행되며, 운영 준비를 위해 참석 의사를 별도로 확인할 수 있습니다.</p></div></div>
@@ -233,6 +235,12 @@
 </div>
 </section>
 </main>
+<section aria-label="ENCY KOREA 공식 홈페이지" class="official-site-strip">
+<div class="container official-site-strip-inner">
+<div class="official-site-strip-copy"><span>ENCY KOREA</span><strong>ENCY KOREA에 대해 더 알아보세요</strong></div>
+<a class="btn btn-ghost btn-sm" href="https://www.encycadcam.co.kr/" rel="noopener" target="_blank">공식 홈페이지</a>
+</div>
+</section>
 <footer class="site-footer">
 <div class="container">
 <div class="footer-top">
