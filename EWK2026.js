@@ -29,8 +29,10 @@
 <a href="#venue">오시는 길</a>
 <a class="mobile-home-link" href="https://www.encycadcam.co.kr/" rel="noopener" target="_blank">공식 홈페이지</a>
 </nav>
+<div class="header-actions">
 <a class="btn btn-ghost btn-sm header-home-btn" href="https://www.encycadcam.co.kr/" rel="noopener" target="_blank">공식 홈페이지</a>
 <a class="btn btn-primary btn-sm" href="#registration">참가 신청하기 </a>
+</div>
 <button aria-expanded="false" aria-label="메뉴 열기" class="menu-btn" id="menuBtn" type="button"><span></span></button>
 </div>
 </header>
@@ -237,8 +239,8 @@
 </main>
 <section aria-label="ENCY KOREA 공식 홈페이지" class="official-site-strip">
 <div class="container official-site-strip-inner">
-<div class="official-site-strip-copy"><span>ENCY KOREA</span><strong>ENCY KOREA에 대해 더 알아보세요</strong></div>
-<a class="btn btn-ghost btn-sm" href="https://www.encycadcam.co.kr/" rel="noopener" target="_blank">공식 홈페이지</a>
+<div class="official-site-strip-copy"><strong>ENCY에 대해 더 자세히 알아보세요!</strong></div>
+<a class="btn btn-ghost btn-sm" href="https://www.encycadcam.co.kr/" rel="noopener" target="_blank">ENCY KOREA 공식 홈페이지</a>
 </div>
 </section>
 <footer class="site-footer">
