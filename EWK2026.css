@@ -2229,3 +2229,130 @@ body.ewk2026-active > :not(#ewk2026-app) {
   }
 }
 
+/* =========================
+   EWK 2026 official-site / form UI refinements
+   ========================= */
+
+/* Header official website CTA */
+#ewk2026-app .header-home-btn {
+  border-color: rgba(255,255,255,.22);
+  background: rgba(255,255,255,.035);
+  color: rgba(255,255,255,.88);
+}
+
+#ewk2026-app .header-home-btn:hover {
+  border-color: rgba(255,255,255,.42);
+  background: rgba(255,255,255,.08);
+  color: #fff;
+}
+
+#ewk2026-app .mobile-home-link {
+  display: none;
+}
+
+/* Compact official website strip above footer */
+#ewk2026-app .official-site-strip {
+  padding: 28px 0;
+  border-top: 1px solid rgba(255,255,255,.08);
+  border-bottom: 1px solid rgba(255,255,255,.08);
+  background: #0a0d12;
+  color: #fff;
+}
+
+#ewk2026-app .official-site-strip-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+}
+
+#ewk2026-app .official-site-strip-copy {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+}
+
+#ewk2026-app .official-site-strip-copy span {
+  font: 700 11px/1 Montserrat, sans-serif;
+  letter-spacing: .12em;
+  color: var(--teal);
+}
+
+#ewk2026-app .official-site-strip-copy strong {
+  font-size: clamp(17px, 1.5vw, 21px);
+  font-weight: 600;
+  letter-spacing: -.02em;
+}
+
+/* Make the two select controls visibly clickable. */
+#ewk2026-app #consulting,
+#ewk2026-app #source {
+  appearance: none;
+  -webkit-appearance: none;
+  padding-right: 54px !important;
+  cursor: pointer;
+  background-color: #fff !important;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='8' viewBox='0 0 14 8'%3E%3Cpath d='M1 1l6 6 6-6' fill='none' stroke='%2359636e' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") !important;
+  background-repeat: no-repeat !important;
+  background-position: right 20px center !important;
+  background-size: 14px 8px !important;
+}
+
+/* Emphasize the attendance-confirmation condition without using an alert color. */
+#ewk2026-app .registration-note-one-line {
+  flex: 1 1 auto;
+  width: auto !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 13px 16px;
+  border: 1px solid rgba(0,124,116,.16);
+  border-radius: 12px;
+  background: rgba(0,196,180,.07);
+  color: #4d5963 !important;
+  text-align: center !important;
+  white-space: normal !important;
+  line-height: 1.65;
+}
+
+#ewk2026-app .registration-note-one-line strong {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+@media (max-width: 1040px) {
+  #ewk2026-app .mobile-home-link {
+    display: inline-flex;
+    margin-top: 4px;
+    padding-top: 18px;
+    border-top: 1px solid rgba(255,255,255,.12);
+    color: #fff;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 760px) {
+  #ewk2026-app .official-site-strip {
+    padding: 24px 0;
+  }
+
+  #ewk2026-app .official-site-strip-inner {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  #ewk2026-app .official-site-strip-copy {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  #ewk2026-app .official-site-strip .btn {
+    width: 100%;
+  }
+
+  #ewk2026-app .registration-note-one-line {
+    width: 100% !important;
+  }
+}
+
