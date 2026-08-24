@@ -101,7 +101,7 @@
 <div><h2 class="section-title small speaker-main-title">ENCY Software 리더십이<br/>서울에서 전하는 글로벌 인사이트</h2><span class="micro-en">Meet the leaders shaping the future of ENCY Software.</span></div>
 <p class="speakers-note">ENCY Software CEO와 Channel Sales Director가 모두 현장에 참석합니다.</p>
 </div>
-<div class="speakers-grid"><article class="speaker-card primary-speaker"><span class="speaker-badge">FEATURED LEADER</span><div class="speaker-media" style="background-image:linear-gradient(to top, rgba(5,8,12,.68), rgba(5,8,12,.05) 58%),url('https://ik.imagekit.io/smartware/26conference/ewk2026-landing/speaker_andrei_kharatsidi.jpg');background-size:cover;background-position:center top;"></div><div class="speaker-info"><span class="speaker-role">CEO · ENCY SOFTWARE</span><h3 class="speaker-name">Andrei<br/>Kharatsidi</h3><p class="speaker-title">ENCY Software CEO</p></div></article><article class="speaker-card"><div class="speaker-media" style="background-image:linear-gradient(to top, rgba(5,8,12,.68), rgba(5,8,12,.05) 58%),url('https://ik.imagekit.io/smartware/26conference/ewk2026-landing/speaker_andrew_lovygin.jpg?v=20260805');background-size:cover;background-position:center top;"></div><div class="speaker-info"><span class="speaker-role">CHANNEL SALES DIRECTOR · ENCY SOFTWARE</span><h3 class="speaker-name">Andrew<br/>Lovygin</h3><p class="speaker-title">Channel Sales Director, ENCY Software</p></div></article><article class="speaker-card host-speaker"><span class="speaker-badge">HOST</span><div class="speaker-media" style="background-image:linear-gradient(to top, rgba(5,8,12,.68), rgba(5,8,12,.05) 58%),url('https://ik.imagekit.io/smartware/26conference/ewk2026-landing/speaker_kim_yoocheon%20(2).jpg?v=20260812');background-size:cover;background-position:center top;"></div><div class="speaker-info"><span class="speaker-role">HOST · YC CORPORATION</span><h3 class="speaker-name">Kim<br/>Yoochun</h3><p class="speaker-title">CEO, YC Corporation</p></div></article></div>
+<div class="speakers-grid"><article class="speaker-card primary-speaker"><span class="speaker-badge">FEATURED LEADER</span><div class="speaker-media" style="background-image:linear-gradient(to top, rgba(5,8,12,.68), rgba(5,8,12,.05) 58%),url('https://ik.imagekit.io/smartware/26conference/ewk2026-landing/speaker_andrei_kharatsidi.jpg');background-size:cover;background-position:center top;"></div><div class="speaker-info"><span class="speaker-role">CEO · ENCY SOFTWARE</span><h3 class="speaker-name">Andrei<br/>Kharatsidi</h3><p class="speaker-title">ENCY Software CEO</p></div></article><article class="speaker-card"><div class="speaker-media" style="background-image:linear-gradient(to top, rgba(5,8,12,.68), rgba(5,8,12,.05) 58%),url('https://ik.imagekit.io/smartware/26conference/ewk2026-landing/speaker_andrew_lovygin.jpg?v=20260805');background-size:cover;background-position:center top;"></div><div class="speaker-info"><span class="speaker-role">CHANNEL SALES DIRECTOR · ENCY SOFTWARE</span><h3 class="speaker-name">Andrew<br/>Lovygin</h3><p class="speaker-title">Channel Sales Director, ENCY Software</p></div></article><article class="speaker-card host-speaker"><span class="speaker-badge">HOST</span><div class="speaker-media" style="background-image:linear-gradient(to top, rgba(5,8,12,.68), rgba(5,8,12,.05) 58%),url('https://ik.imagekit.io/smartware/26conference/ewk2026-landing/speaker_kim_yoocheon%20(2).jpg?v=20260812');background-size:cover;background-position:center top;"></div><div class="speaker-info"><span class="speaker-role">HOST · YC CORPORATION</span><h3 class="speaker-name">Yoochun<br/>Kim</h3><p class="speaker-title">CEO, YC Corporation</p></div></article></div>
 </div>
 </section>
 <section class="section section-dark program-centered" id="program">
@@ -178,17 +178,6 @@
 <div class="field"><label for="company">회사명 <span class="required">*</span></label><input autocomplete="organization" id="company" name="company" placeholder="회사명을 입력해 주세요" required="" type="text"/></div>
 <div class="field"><label for="email">이메일 <span class="required">*</span></label><input autocomplete="email" id="email" name="email" placeholder="name@company.com" required="" type="email"/></div>
 <div class="field"><label for="phone">휴대전화 <span class="required">*</span></label><input autocomplete="tel" id="phone" name="phone" placeholder="010-0000-0000" required="" type="tel"/></div>
-<div class="field full address-field">
-<label for="address">주소 <span class="required">*</span></label>
-<div class="address-search-row">
-<input id="address" name="address" placeholder="주소 검색 버튼을 눌러 주세요" readonly="" type="text"/>
-<button class="btn btn-ghost address-search-btn" id="addressSearchButton" type="button">주소 검색</button>
-</div>
-<input id="detailAddress" name="detail_address" placeholder="상세주소를 입력해 주세요" required="" type="text"/>
-<input id="roadAddress" name="road_address" type="hidden"/>
-<input id="jibunAddress" name="jibun_address" type="hidden"/>
-<input id="zipcode" name="zipcode" type="hidden"/>
-</div>
 <div class="field full"><label for="job">직무·부서 <span class="required">*</span></label><input id="job" name="job" placeholder="예: 생산기술팀 과장" required="" type="text"/></div>
 </div>
 </section>
@@ -599,69 +588,6 @@
           });
 
           const form = document.getElementById('registrationForm');
-
-          // 주소 검색: Daum 우편번호 서비스
-          const addressInput = document.getElementById('address');
-          const detailAddressInput = document.getElementById('detailAddress');
-          const roadAddressInput = document.getElementById('roadAddress');
-          const jibunAddressInput = document.getElementById('jibunAddress');
-          const zipcodeInput = document.getElementById('zipcode');
-          const addressSearchButton = document.getElementById('addressSearchButton');
-
-          const loadDaumPostcode = () => new Promise((resolve, reject) => {
-            if (window.daum?.Postcode) {
-              resolve();
-              return;
-            }
-
-            const existingScript = document.querySelector('script[data-ewk2026-daum-postcode]');
-            if (existingScript) {
-              existingScript.addEventListener('load', resolve, { once: true });
-              existingScript.addEventListener(
-                'error',
-                () => reject(new Error('주소 검색 서비스를 불러오지 못했습니다.')),
-                { once: true }
-              );
-              return;
-            }
-
-            const script = document.createElement('script');
-            script.src = 'https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js';
-            script.async = true;
-            script.dataset.ewk2026DaumPostcode = 'true';
-            script.onload = resolve;
-            script.onerror = () => reject(new Error('주소 검색 서비스를 불러오지 못했습니다.'));
-            document.head.appendChild(script);
-          });
-
-          addressSearchButton?.addEventListener('click', async () => {
-            try {
-              await loadDaumPostcode();
-
-              new window.daum.Postcode({
-                oncomplete: (data) => {
-                  const roadAddress = data.roadAddress || '';
-                  const jibunAddress = data.jibunAddress || data.autoJibunAddress || '';
-                  const baseAddress = roadAddress || jibunAddress;
-
-                  if (addressInput) addressInput.value = baseAddress;
-                  if (roadAddressInput) roadAddressInput.value = roadAddress;
-                  if (jibunAddressInput) jibunAddressInput.value = jibunAddress;
-                  if (zipcodeInput) zipcodeInput.value = data.zonecode || '';
-
-                  detailAddressInput?.focus();
-                }
-              }).open();
-
-            } catch (error) {
-              console.error(error);
-              window.alert(
-                error?.message ||
-                '주소 검색 서비스를 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.'
-              );
-            }
-          });
-
           const modal = document.getElementById('successModal');
           const closeModal = document.getElementById('closeModal');
           const close = () => { modal.classList.remove('show'); document.body.classList.remove('modal-open'); };
@@ -692,11 +618,6 @@
             company: form.elements.company?.value.trim() || '',
             email: form.elements.email?.value.trim() || '',
             phone: form.elements.phone?.value.trim() || '',
-            address: `${form.elements.address?.value.trim() || ''}${form.elements.detail_address?.value.trim() ? ` ${form.elements.detail_address.value.trim()}` : ''}`,
-            road_address: form.elements.road_address?.value.trim() || '',
-            jibun_address: form.elements.jibun_address?.value.trim() || '',
-            detail_address: form.elements.detail_address?.value.trim() || '',
-            zipcode: form.elements.zipcode?.value.trim() || '',
             job: form.elements.job?.value.trim() || '',
 
             interest: getSelectedValues('interest'),
@@ -723,13 +644,6 @@
 
             let valid = form.checkValidity();
 
-            if (!form.elements.address?.value.trim()) {
-              valid = false;
-              addressInput?.classList.add('address-invalid');
-            } else {
-              addressInput?.classList.remove('address-invalid');
-            }
-
             form.querySelectorAll('[data-required-group]').forEach(group => {
               const checked = group.querySelector('input[type="checkbox"]:checked');
               group.style.outline = checked ? '' : '1px solid rgba(255,98,98,.8)';
@@ -740,16 +654,6 @@
 
             if (!valid) {
               form.reportValidity();
-
-              if (!form.elements.address?.value.trim()) {
-                addressInput?.scrollIntoView({
-                  behavior: 'smooth',
-                  block: 'center'
-                });
-                window.setTimeout(() => addressSearchButton?.focus(), 350);
-                return;
-              }
-
               const firstInvalid =
                 form.querySelector(':invalid') ||
                 form.querySelector('[data-required-group][style*="outline"]');
