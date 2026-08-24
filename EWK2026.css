@@ -2388,3 +2388,54 @@ body.ewk2026-active > :not(#ewk2026-app) {
     display: none;
   }
 }
+
+/* =========================
+   EWK 2026 address search
+   ========================= */
+#ewk2026-app .address-field {
+  grid-column: 1 / -1;
+}
+
+#ewk2026-app .address-search-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 10px;
+  align-items: stretch;
+}
+
+#ewk2026-app .address-search-row input {
+  min-width: 0;
+}
+
+#ewk2026-app .address-search-btn {
+  min-width: 116px;
+  padding-inline: 18px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+#ewk2026-app .address-search-btn:hover {
+  border-color: transparent;
+  background: linear-gradient(110deg, var(--teal), var(--blue));
+  color: #fff;
+}
+
+#ewk2026-app .address-field > input[name="detail_address"] {
+  margin-top: 10px;
+}
+
+#ewk2026-app .address-invalid {
+  border-color: rgba(214, 58, 58, .72) !important;
+  box-shadow: 0 0 0 3px rgba(214, 58, 58, .08) !important;
+}
+
+@media (max-width: 620px) {
+  #ewk2026-app .address-search-row {
+    grid-template-columns: 1fr;
+  }
+
+  #ewk2026-app .address-search-btn {
+    width: 100%;
+  }
+}
+
