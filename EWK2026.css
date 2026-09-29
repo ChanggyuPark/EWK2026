@@ -1,28 +1,28 @@
 /*
  * EWK 2026 landing page stylesheet
  * Sixshop common add-on safe version.
- * Activates only when section 17371105 / item 50341976 exists.
+ * Activates only when section 17410651 / item 50457165 exists.
  */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
 
 /* Sixshop target section: remove built-in width, margin and padding */
-#sectionWrapper17371105,
-#section17371105,
-#item50341976,
-#itemElement50341976,
-#section17371105 .item-wrapper,
-#section17371105 .item-element {
+#sectionWrapper17410651,
+#section17410651,
+#item50457165,
+#itemElement50457165,
+#section17410651 .item-wrapper,
+#section17410651 .item-element {
   width: 100% !important;
   max-width: none !important;
   margin: 0 !important;
   padding: 0 !important;
 }
 
-#sectionWrapper17371105,
-#section17371105,
-#item50341976,
-#itemElement50341976 {
+#sectionWrapper17410651,
+#section17410651,
+#item50457165,
+#itemElement50457165 {
   overflow: visible !important;
 }
 
@@ -213,7 +213,7 @@ body.ewk2026-active > :not(#ewk2026-app) {
     #ewk2026-app .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 28px; }
     #ewk2026-app .brand { display: flex; align-items: center; gap: 13px; min-width: 190px; }
     #ewk2026-app .brand-logo {
-      width: 100px;
+      width: 118px;
       height: 30px;
       object-fit: contain;
       object-position: left center;
@@ -738,7 +738,7 @@ body.ewk2026-active > :not(#ewk2026-app) {
       #ewk2026-app .section { padding: 92px 0; }
       #ewk2026-app .section-title { font-size: clamp(36px, 10.5vw, 54px); }
       #ewk2026-app .site-header { height: var(--header-h); }
-      #ewk2026-app .brand-logo { width: 88px; }
+      #ewk2026-app .brand-logo { width: 104px; }
       #ewk2026-app .hero { padding-top: calc(var(--header-h) + 44px); min-height: auto; }
       #ewk2026-app .hero h1 { font-size: clamp(48px, 15vw, 74px); }
       #ewk2026-app .hero-copy { font-size: 21px; }
@@ -2075,367 +2075,3 @@ body.ewk2026-active > :not(#ewk2026-app) {
       background-size: cover !important;
       background-position: center top !important;
     }
-
-/* =========================
-   EWK 2026 requested final refinements · 2026-08-05
-   ========================= */
-
-/* Keep only the YC solution card title on one line on desktop. */
-#ewk2026-app .yc-solution-title {
-  white-space: nowrap;
-}
-
-/* Ensure the existing TOP control is visible on PC and hidden on mobile. */
-@media (min-width: 761px) {
-  #ewk2026-app .top-button {
-    display: block !important;
-  }
-}
-
-@media (max-width: 760px) {
-  #ewk2026-app .yc-solution-title {
-    white-space: normal;
-  }
-
-  #ewk2026-app .top-button {
-    display: none !important;
-  }
-}
-
-/* =========================
-   EWK 2026 official poster
-   ========================= */
-#ewk2026-app .poster-section {
-  padding: 88px 0;
-}
-
-#ewk2026-app .poster-head {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#ewk2026-app .poster-head-copy {
-  max-width: 760px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-#ewk2026-app .poster-intro {
-  margin: 20px auto 0;
-  max-width: 680px;
-  color: #59636e;
-  font-size: clamp(15px, 1.2vw, 18px);
-  line-height: 1.7;
-}
-
-#ewk2026-app .poster-download-wrap {
-  display: flex;
-  justify-content: center;
-  margin-top: 28px;
-}
-
-#ewk2026-app .poster-download {
-  flex: 0 0 auto;
-  white-space: nowrap;
-}
-
-#ewk2026-app .poster-gallery {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 20px;
-  width: min(100%, 940px);
-  margin: 42px auto 0;
-}
-
-#ewk2026-app .poster-card {
-  margin: 0;
-  overflow: hidden;
-  border: 1px solid rgba(10,13,18,.09);
-  border-radius: 18px;
-  background: #e9edef;
-  box-shadow: 0 14px 38px rgba(10,13,18,.07);
-}
-
-#ewk2026-app .poster-card img {
-  display: block;
-  width: 100%;
-  height: auto;
-  max-height: 575px;
-  object-fit: contain;
-}
-
-#ewk2026-app .poster-swipe-hint {
-  display: none;
-}
-
-@media (max-width: 760px) {
-  #ewk2026-app .poster-section {
-    padding: 68px 0;
-  }
-
-  #ewk2026-app .poster-head {
-    align-items: center;
-  }
-
-  #ewk2026-app .poster-download-wrap {
-    margin-top: 22px;
-  }
-
-  #ewk2026-app .poster-download {
-    width: 100%;
-  }
-
-  #ewk2026-app .poster-gallery {
-    display: flex;
-    gap: 14px;
-    width: 100%;
-    max-width: none;
-    margin-top: 32px;
-    padding: 0 15% 2px 0;
-    overflow-x: auto;
-    overflow-y: hidden;
-    scroll-snap-type: x mandatory;
-    scroll-padding-left: 0;
-    overscroll-behavior-x: contain;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-  }
-
-  #ewk2026-app .poster-gallery::-webkit-scrollbar {
-    display: none;
-  }
-
-  #ewk2026-app .poster-card {
-    flex: 0 0 80%;
-    border-radius: 14px;
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
-    box-shadow: 0 10px 28px rgba(10,13,18,.06);
-  }
-
-  #ewk2026-app .poster-card img {
-    max-height: none;
-  }
-
-  #ewk2026-app .poster-swipe-hint {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    margin: 12px 0 0;
-    color: #7a838c;
-    font: 600 11px/1.4 Montserrat, Pretendard, sans-serif;
-    letter-spacing: .02em;
-  }
-}
-
-/* =========================
-   EWK 2026 official-site / form UI refinements
-   ========================= */
-
-/* Header official website CTA */
-#ewk2026-app .header-home-btn {
-  border-color: rgba(255,255,255,.22);
-  background: rgba(255,255,255,.035);
-  color: rgba(255,255,255,.88);
-}
-
-#ewk2026-app .header-home-btn:hover {
-  border-color: rgba(255,255,255,.42);
-  background: rgba(255,255,255,.08);
-  color: #fff;
-}
-
-#ewk2026-app .mobile-home-link {
-  display: none;
-}
-
-/* Compact official website strip above footer */
-#ewk2026-app .official-site-strip {
-  padding: 28px 0;
-  border-top: 1px solid rgba(255,255,255,.08);
-  border-bottom: 1px solid rgba(255,255,255,.08);
-  background: #0a0d12;
-  color: #fff;
-}
-
-#ewk2026-app .official-site-strip-inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 28px;
-}
-
-#ewk2026-app .official-site-strip-copy {
-  display: flex;
-  align-items: baseline;
-  gap: 16px;
-}
-
-#ewk2026-app .official-site-strip-copy span {
-  font: 700 11px/1 Montserrat, sans-serif;
-  letter-spacing: .12em;
-  color: var(--teal);
-}
-
-#ewk2026-app .official-site-strip-copy strong {
-  font-size: clamp(17px, 1.5vw, 21px);
-  font-weight: 600;
-  letter-spacing: -.02em;
-}
-
-/* Make the two select controls visibly clickable. */
-#ewk2026-app #consulting,
-#ewk2026-app #source {
-  appearance: none;
-  -webkit-appearance: none;
-  padding-right: 54px !important;
-  cursor: pointer;
-  background-color: #fff !important;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='8' viewBox='0 0 14 8'%3E%3Cpath d='M1 1l6 6 6-6' fill='none' stroke='%2359636e' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") !important;
-  background-repeat: no-repeat !important;
-  background-position: right 20px center !important;
-  background-size: 14px 8px !important;
-}
-
-/* Emphasize the attendance-confirmation condition without using an alert color. */
-#ewk2026-app .registration-note-one-line {
-  flex: 1 1 auto;
-  width: auto !important;
-  max-width: none !important;
-  margin: 0 !important;
-  padding: 13px 16px;
-  border: 1px solid rgba(0,124,116,.16);
-  border-radius: 12px;
-  background: rgba(0,196,180,.07);
-  color: #4d5963 !important;
-  text-align: center !important;
-  white-space: normal !important;
-  line-height: 1.65;
-}
-
-#ewk2026-app .registration-note-one-line strong {
-  color: var(--ink);
-  font-weight: 700;
-}
-
-@media (max-width: 1040px) {
-  #ewk2026-app .mobile-home-link {
-    display: inline-flex;
-    margin-top: 4px;
-    padding-top: 18px;
-    border-top: 1px solid rgba(255,255,255,.12);
-    color: #fff;
-    font-weight: 600;
-  }
-}
-
-@media (max-width: 760px) {
-  #ewk2026-app .official-site-strip {
-    padding: 24px 0;
-  }
-
-  #ewk2026-app .official-site-strip-inner {
-    align-items: stretch;
-    flex-direction: column;
-    gap: 18px;
-  }
-
-  #ewk2026-app .official-site-strip-copy {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 8px;
-  }
-
-  #ewk2026-app .official-site-strip .btn {
-    width: 100%;
-  }
-
-  #ewk2026-app .registration-note-one-line {
-    width: 100% !important;
-  }
-}
-
-/* =========================
-   EWK 2026 official website CTA refinements v2
-   ========================= */
-
-/* Keep both desktop header CTAs together on the right. */
-#ewk2026-app .header-actions {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-left: auto;
-  flex: 0 0 auto;
-}
-
-/* Official website CTAs gain the ENCY gradient on hover. */
-#ewk2026-app .header-home-btn:hover,
-#ewk2026-app .official-site-strip .btn:hover {
-  border-color: transparent;
-  background: linear-gradient(110deg, var(--teal), var(--blue));
-  color: #fff;
-  box-shadow: 0 14px 34px rgba(26,115,232,.22);
-}
-
-/* The footer strip no longer needs a two-line label stack. */
-#ewk2026-app .official-site-strip-copy {
-  display: block;
-}
-
-@media (max-width: 1040px) {
-  #ewk2026-app .header-actions {
-    display: none;
-  }
-}
-
-/* =========================
-   EWK 2026 address search
-   ========================= */
-#ewk2026-app .address-field {
-  grid-column: 1 / -1;
-}
-
-#ewk2026-app .address-search-row {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 10px;
-  align-items: stretch;
-}
-
-#ewk2026-app .address-search-row input {
-  min-width: 0;
-}
-
-#ewk2026-app .address-search-btn {
-  min-width: 116px;
-  padding-inline: 18px;
-  white-space: nowrap;
-  cursor: pointer;
-}
-
-#ewk2026-app .address-search-btn:hover {
-  border-color: transparent;
-  background: linear-gradient(110deg, var(--teal), var(--blue));
-  color: #fff;
-}
-
-#ewk2026-app .address-field > input[name="detail_address"] {
-  margin-top: 10px;
-}
-
-#ewk2026-app .address-invalid {
-  border-color: rgba(214, 58, 58, .72) !important;
-  box-shadow: 0 0 0 3px rgba(214, 58, 58, .08) !important;
-}
-
-@media (max-width: 620px) {
-  #ewk2026-app .address-search-row {
-    grid-template-columns: 1fr;
-  }
-
-  #ewk2026-app .address-search-btn {
-    width: 100%;
-  }
-}
-
