@@ -18,17 +18,21 @@
 <header class="site-header" id="header">
 <div class="container header-inner">
 <a aria-label="ENCY KOREA 홈" class="brand" href="#top">
-<img alt="EWK 2026" class="brand-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='block'" src="https://ik.imagekit.io/smartware/26conference/ewk2026-logo/ewk%202026_white%20(2).png"/>
+<img alt="EWK 2026" class="brand-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='block'" src="https://ik.imagekit.io/smartware/26conference/ewk2026-logo/ency-world-korea-white.png?v=20260810"/>
 <span class="brand-fallback">ENCY KOREA</span>
 </a>
 <nav aria-label="주요 메뉴" class="header-nav" id="nav">
-<a href="#experience">행사 소개</a>
+<a href="#top">행사 소개</a>
 <a href="#experience">주요 내용</a>
 <a href="#speakers">글로벌 연사</a>
 <a href="#program">프로그램</a>
 <a href="#venue">오시는 길</a>
+<a class="mobile-home-link" href="https://www.encycadcam.co.kr/" rel="noopener" target="_blank">공식 홈페이지</a>
 </nav>
+<div class="header-actions">
+<a class="btn btn-ghost btn-sm header-home-btn" href="https://www.encycadcam.co.kr/" rel="noopener" target="_blank">공식 홈페이지</a>
 <a class="btn btn-primary btn-sm" href="#registration">참가 신청하기 </a>
+</div>
 <button aria-expanded="false" aria-label="메뉴 열기" class="menu-btn" id="menuBtn" type="button"><span></span></button>
 </div>
 </header>
@@ -38,6 +42,9 @@
 <div class="container hero-grid">
 <div class="hero-content">
 <h1 class="sr-only">ENCY World 2026: Korean Edition</h1>
+<div class="event-title-logo" style="width:min(560px,72vw);min-height:auto;margin:0 auto 26px;">
+<img alt="EWK 2026" src="https://ik.imagekit.io/smartware/26conference/ewk2026-logo/ewk2026-wide-white.png" style="width:100%;height:auto;object-fit:contain;"/>
+</div>
 <p class="hero-copy"><strong>글로벌 CAD/CAM의 다음 기준,</strong><br/>서울에서 공개됩니다</p>
 <span class="micro-en">Discover the next standard in CAD/CAM, live in Seoul.</span>
 <p class="hero-subcopy">CAD/CAM부터 AI, 턴밀·5축 가공, 제조 자동화까지.<br/>ENCY KOREA와 ENCY Software가 제조 프로그래밍의 다음 변화를 실제 데모와 인사이트로 보여드립니다.</p>
@@ -83,8 +90,8 @@
 <article class="experience-card"><span class="exp-no">01 · ENCY 3.0</span><h3>글로벌 ENCY Software가 제시하는 새로운 기술 방향</h3><p>ENCY 3.0의 주요 변화와 제조 프로그래밍이 향하는 다음 흐름을 글로벌 키노트를 통해 확인합니다.</p><div class="exp-graphic"></div></article>
 <article class="experience-card"><span class="exp-no">02 · TURN-MILL &amp; 5-AXIS</span><h3>턴밀과 5축 가공 프로그래밍 데모</h3><p>복합가공과 5축 가공을 위한 ENCY CAM의 프로그래밍 흐름을 실제 화면으로 확인합니다.</p><div class="exp-graphic"></div></article>
 <article class="experience-card"><span class="exp-no">03 · DESIGN TO CAM</span><h3>Autodesk Fusion 설계부터 ENCY CAM까지</h3><p>Autodesk Fusion 설계 데이터가 ENCY CAM 프로그래밍과 가공 준비로 연결되는 과정을 보여드립니다.</p><div class="exp-graphic"></div></article>
-<article class="experience-card"><span class="exp-no">04 · AUTOMATION</span><h3>ENCY Hyper와 제조 자동화 기술</h3><p>소프트웨어와 실제 제조 환경을 연결하는 ENCY Hyper의 기술 및 적용 방향을 소개합니다.</p><div class="exp-graphic"></div></article>
-<article class="experience-card"><span class="exp-no">05 · YC SOLUTION SHOWCASE</span><h3>제조 현장을 확장하는 YC 솔루션 소개</h3><p>넥스트카본, 스마트대쉬, 넥스트세이프를 포함한 YC의 솔루션을 하나의 세션에서 확인합니다.</p><div class="exp-graphic"></div></article>
+<article class="experience-card"><span class="exp-no">04 · AUTOMATION</span><h3>ENCY Hyper와 제조 자동화 기술</h3><p>로봇 자동화 시스템의 실제 구현을 위한 로봇 시뮬레이션 및 실시간 제어 소프트웨어를 소개합니다.</p><div class="exp-graphic"></div></article>
+<article class="experience-card"><span class="exp-no">05 · YC SOLUTION SHOWCASE</span><h3 class="yc-solution-title">제조 현장을 확장하는 YC 솔루션 소개</h3><p>CAM 공정을 넘어 스마트팩토리 구축을 위한 에너지관리 솔루션(FEMS), 생산관리 솔루션(MES) 및 안전 관리 솔루션을 선보입니다.</p><div class="exp-graphic"></div></article>
 </div>
 </div>
 </section>
@@ -94,7 +101,7 @@
 <div><h2 class="section-title small speaker-main-title">ENCY Software 리더십이<br/>서울에서 전하는 글로벌 인사이트</h2><span class="micro-en">Meet the leaders shaping the future of ENCY Software.</span></div>
 <p class="speakers-note">ENCY Software CEO와 Channel Sales Director가 모두 현장에 참석합니다.</p>
 </div>
-<div class="speakers-grid"><article class="speaker-card primary-speaker"><span class="speaker-badge">FEATURED LEADER</span><div class="speaker-media" style="background-image:linear-gradient(to top, rgba(5,8,12,.68), rgba(5,8,12,.05) 58%),url('https://ik.imagekit.io/smartware/26conference/ewk2026-landing/speaker_andrei_kharatsidi.jpg');background-size:cover;background-position:center top;"></div><div class="speaker-info"><span class="speaker-role">CEO · ENCY SOFTWARE</span><h3 class="speaker-name">Andrei<br/>Kharatsidi</h3><p class="speaker-title">ENCY Software CEO</p></div></article><article class="speaker-card"><div class="speaker-media" style="background-image:linear-gradient(to top, rgba(5,8,12,.68), rgba(5,8,12,.05) 58%),url('https://ik.imagekit.io/smartware/26conference/ewk2026-landing/speaker_andrew_lovygin.jpg');background-size:cover;background-position:center top;"></div><div class="speaker-info"><span class="speaker-role">CHANNEL SALES DIRECTOR · ENCY SOFTWARE</span><h3 class="speaker-name">Andrew<br/>Lovygin</h3><p class="speaker-title">Channel Sales Director, ENCY Software</p></div></article><article class="speaker-card host-speaker"><span class="speaker-badge">HOST</span><div class="speaker-media" style="background-image:linear-gradient(to top, rgba(5,8,12,.68), rgba(5,8,12,.05) 58%),url('https://ik.imagekit.io/smartware/26conference/ewk2026-landing/speaker_kim_yoocheon.jpg');background-size:cover;background-position:center top;"></div><div class="speaker-info"><span class="speaker-role">HOST · YC CORPORATION</span><h3 class="speaker-name">Kim<br/>Yoocheon</h3><p class="speaker-title">CEO, YC Corporation</p></div></article></div>
+<div class="speakers-grid"><article class="speaker-card primary-speaker"><span class="speaker-badge">FEATURED LEADER</span><div class="speaker-media" style="background-image:linear-gradient(to top, rgba(5,8,12,.68), rgba(5,8,12,.05) 58%),url('https://ik.imagekit.io/smartware/26conference/ewk2026-landing/speaker_andrei_kharatsidi.jpg');background-size:cover;background-position:center top;"></div><div class="speaker-info"><span class="speaker-role">CEO · ENCY SOFTWARE</span><h3 class="speaker-name">Andrei<br/>Kharatsidi</h3><p class="speaker-title">ENCY Software CEO</p></div></article><article class="speaker-card"><div class="speaker-media" style="background-image:linear-gradient(to top, rgba(5,8,12,.68), rgba(5,8,12,.05) 58%),url('https://ik.imagekit.io/smartware/26conference/ewk2026-landing/speaker_andrew_lovygin.jpg?v=20260805');background-size:cover;background-position:center top;"></div><div class="speaker-info"><span class="speaker-role">CHANNEL SALES DIRECTOR · ENCY SOFTWARE</span><h3 class="speaker-name">Andrew<br/>Lovygin</h3><p class="speaker-title">Channel Sales Director, ENCY Software</p></div></article><article class="speaker-card host-speaker"><span class="speaker-badge">HOST</span><div class="speaker-media" style="background-image:linear-gradient(to top, rgba(5,8,12,.68), rgba(5,8,12,.05) 58%),url('https://ik.imagekit.io/smartware/26conference/ewk2026-landing/speaker_kim_yoocheon%20(2).jpg?v=20260812');background-size:cover;background-position:center top;"></div><div class="speaker-info"><span class="speaker-role">HOST · YC CORPORATION</span><h3 class="speaker-name">Yoochun<br/>Kim</h3><p class="speaker-title">CEO, YC Corporation</p></div></article></div>
 </div>
 </section>
 <section class="section section-dark program-centered" id="program">
@@ -102,6 +109,19 @@
 <div><h2 class="section-title small">EWK 2026 일정</h2></div>
 <div class="agenda-columns"><div class="agenda-panel"><div class="agenda-panel-head">SESSION 01 · 12:30-15:10</div><div class="agenda-wrap"><div class="agenda-row"><time class="agenda-time">12:30-13:00</time><div class="agenda-title">참가자 등록<span class="agenda-en">Registration</span></div><span class="agenda-type">Welcome</span></div><div class="agenda-row"><time class="agenda-time">13:00-13:20</time><div class="agenda-title">환영사 및 YC 소개<span class="agenda-en">Welcome &amp; YC Introduction</span></div><span class="agenda-type">Opening</span></div><div class="agenda-row"><time class="agenda-time">13:20-13:40</time><div class="agenda-title">축하 행사<span class="agenda-en">Celebration Performance</span></div><span class="agenda-type">Special</span></div><div class="agenda-row"><time class="agenda-time">13:40-14:10</time><div class="agenda-title">ENCY CAM 프로그램 개요 및 적용 분야<span class="agenda-en">ENCY CAM Overview &amp; Applications</span></div><span class="agenda-type">Session</span></div><div class="agenda-row"><time class="agenda-time">14:10-14:40</time><div class="agenda-title">ENCY CAM 턴밀 및 5축 가공 데모<span class="agenda-en">Turn-Mill &amp; 5-Axis Demonstration</span></div><span class="agenda-type">Demo</span></div><div class="agenda-row"><time class="agenda-time">14:40-15:00</time><div class="agenda-title">Autodesk Fusion 설계 + ENCY CAM 데모<span class="agenda-en">Autodesk Fusion to ENCY CAM</span></div><span class="agenda-type">Demo</span></div><div class="agenda-row"><time class="agenda-time">15:00-15:10</time><div class="agenda-title">Coffee Break<span class="agenda-en">Refreshment Break</span></div><span class="agenda-type">Break</span></div></div></div><div class="agenda-panel"><div class="agenda-panel-head">SESSION 02 · 15:10-20:00</div><div class="agenda-wrap"><div class="agenda-row"><time class="agenda-time">15:10-15:30</time><div class="agenda-title">ENCY Hyper 데모<span class="agenda-en">ENCY Hyper Demonstration</span></div><span class="agenda-type">Demo</span></div><div class="agenda-row"><time class="agenda-time">15:30-16:15</time><div class="agenda-title">YC 솔루션 소개<span class="agenda-en">YC Solution Showcase</span></div><span class="agenda-type">Showcase</span></div><div class="agenda-row"><time class="agenda-time">16:15-16:35</time><div class="agenda-title">ENCY 도입 및 활용 사례<span class="agenda-en">ENCY Customer Use Cases</span></div><span class="agenda-type">Case Study</span></div><div class="agenda-row"><time class="agenda-time">16:35-16:50</time><div class="agenda-title">Coffee Break<span class="agenda-en">Refreshment Break</span></div><span class="agenda-type">Break</span></div><div class="agenda-row keynote"><time class="agenda-time">16:50-17:20</time><div class="agenda-title">ENCY 3.0 Global Launch Keynote<span class="agenda-en">ENCY Software Global Leadership</span></div><span class="agenda-type">Keynote</span></div><div class="agenda-row"><time class="agenda-time">17:20-17:30</time><div class="agenda-title">YC 파트너 정책 소개<span class="agenda-en">YC Partner Program</span></div><span class="agenda-type">Partner</span></div><div class="agenda-row"><time class="agenda-time">17:30-18:00</time><div class="agenda-title">파트너 세레머니, 우수 고객사 시상 및 럭키드로우<span class="agenda-en">Ceremony, Awards &amp; Lucky Draw</span></div><span class="agenda-type">Closing</span></div><div class="agenda-row"><time class="agenda-time">18:00-20:00</time><div class="agenda-title">네트워킹 리셉션 및 디너<span class="agenda-en">Networking Reception &amp; Dinner</span></div><span class="agenda-type">Networking</span></div></div></div></div>
 <p class="hero-note">프로그램과 세부 운영 시간은 행사 준비 상황에 따라 일부 변경될 수 있습니다.</p>
+</div>
+</section>
+<section class="section section-paper poster-section" id="poster">
+<div class="container">
+<div class="poster-head">
+<div class="poster-head-copy"><h2 class="section-title small">EWK 2026 공식 포스터</h2><p class="poster-intro">행사 주요 정보와 전체 프로그램을 공식 포스터에서 확인하세요.</p></div>
+</div>
+<div aria-label="EWK 2026 공식 포스터" class="poster-gallery">
+<figure class="poster-card"><img alt="EWK 2026 공식 포스터 메인 비주얼" loading="lazy" src="https://ik.imagekit.io/smartware/26conference/ewk2026-landing/ewk2026-poster-01.jpg"/></figure>
+<figure class="poster-card"><img alt="EWK 2026 공식 포스터 행사 일정" loading="lazy" src="https://ik.imagekit.io/smartware/26conference/ewk2026-landing/ewk2026-poster-02.jpg"/></figure>
+</div>
+<p aria-hidden="true" class="poster-swipe-hint">옆으로 넘겨 확인하세요 <span>→</span></p>
+<div class="poster-download-wrap"><a class="btn btn-dark poster-download" href="https://drive.google.com/file/d/1OXlbHOwe2LM6Z7J1F_E-fkbGS4HM8BzW/view?usp=sharing" rel="noopener noreferrer" target="_blank">공식 포스터 PDF 다운로드 <span class="arrow">↗</span></a></div>
 </div>
 </section>
 <section class="section section-paper alt" id="media">
@@ -158,6 +178,17 @@
 <div class="field"><label for="company">회사명 <span class="required">*</span></label><input autocomplete="organization" id="company" name="company" placeholder="회사명을 입력해 주세요" required="" type="text"/></div>
 <div class="field"><label for="email">이메일 <span class="required">*</span></label><input autocomplete="email" id="email" name="email" placeholder="name@company.com" required="" type="email"/></div>
 <div class="field"><label for="phone">휴대전화 <span class="required">*</span></label><input autocomplete="tel" id="phone" name="phone" placeholder="010-0000-0000" required="" type="tel"/></div>
+<div class="field full address-field">
+<label for="address">주소 <span class="required">*</span></label>
+<div class="address-search-row">
+<input id="address" name="address" placeholder="주소 검색 버튼을 눌러 주세요" readonly="" type="text"/>
+<button class="btn btn-ghost address-search-btn" id="addressSearchButton" type="button">주소 검색</button>
+</div>
+<input id="detailAddress" name="detail_address" placeholder="상세주소를 입력해 주세요" type="text"/>
+<input id="roadAddress" name="road_address" type="hidden"/>
+<input id="jibunAddress" name="jibun_address" type="hidden"/>
+<input id="zipcode" name="zipcode" type="hidden"/>
+</div>
 <div class="field full"><label for="job">직무·부서 <span class="required">*</span></label><input id="job" name="job" placeholder="예: 생산기술팀 과장" required="" type="text"/></div>
 </div>
 </section>
@@ -182,7 +213,7 @@
 <div class="choice"><input id="hard1" name="hardware" type="checkbox" value="CNC 공작기계"/><label for="hard1">CNC 공작기계</label></div><div class="choice"><input id="hard2" name="hardware" type="checkbox" value="산업용 로봇팔"/><label for="hard2">산업용 로봇팔</label></div><div class="choice"><input id="hard3" name="hardware" type="checkbox" value="레이저 가공기"/><label for="hard3">레이저 가공기</label></div><div class="choice"><input id="hard4" name="hardware" type="checkbox" value="3D 프린터"/><label for="hard4">3D 프린터</label></div><div class="choice"><input id="hard5" name="hardware" type="checkbox" value="협동로봇"/><label for="hard5">협동로봇</label></div><div class="choice"><input id="hard6" name="hardware" type="checkbox" value="센서·IoT"/><label for="hard6">센서·IoT 장비</label></div><div class="choice"><input id="hard7" name="hardware" type="checkbox" value="보유 장비 없음"/><label for="hard7">보유 장비 없음</label></div><div class="choice"><input id="hard8" name="hardware" type="checkbox" value="기타"/><label for="hard8">기타</label></div>
 </div></fieldset>
 <div class="field"><label for="consulting">기술 상담 희망 여부</label><select id="consulting" name="consulting"><option value="">선택해 주세요</option><option>예, 1:1 기술 상담을 희망합니다</option><option>아니요, 우선 정보만 받아보겠습니다</option></select></div>
-<div class="field"><label for="source">유입 경로</label><select id="source" name="source"><option value="">선택해 주세요</option><option>광고(SNS·검색)</option><option>지인·동료 추천</option><option>파트너사·장비사 소개</option><option>전시회·행사 부스</option><option>ENCY 기존 고객</option><option>기타</option></select></div>
+<div class="field"><label for="source">유입 경로</label><select id="source" name="source"><option value="">선택해 주세요</option><option>광고(SNS·검색)</option><option>지인·동료 추천</option><option>YC코퍼레이션(ENCY KOREA) 직원 추천</option><option>파트너사·장비사 소개</option><option>전시회·행사 부스</option><option>ENCY 기존 고객</option><option>기타</option></select></div>
 </div>
 </section>
 <section class="form-card">
@@ -198,7 +229,7 @@
 선택 동의에 동의하지 않아도 EWK 2026 참가 신청은 가능합니다.</div></div>
 <p class="form-info-note">※ 행사 현장에서는 기록 및 홍보를 위한 사진·영상 촬영이 진행됩니다. 동반 참석자를 포함한 모든 참석자는 1인 1건으로 개별 신청해 주세요.</p></section>
 <div class="submit-row">
-<p class="submit-note registration-note-one-line">행사 공간 운영 상황에 따라 참가 신청이 사전에 마감될 수 있습니다. 신청 내용 수정이 필요한 경우 행사 문의처로 연락해 주세요.</p>
+<p class="submit-note registration-note-one-line">참가 신청은 참석 확정을 의미하지 않습니다. <strong>운영팀 확인 후 참석 확정 안내를 받은 분에 한해 행사에 참가할 수 있습니다.</strong></p>
 <button class="btn btn-primary" type="submit">참가 신청 완료하기 </button>
 </div>
 </form>
@@ -208,7 +239,7 @@
 <div class="container faq-layout">
 <div><h2 class="section-title small">자주 묻는 질문</h2><span class="micro-en">Frequently asked questions about EWK 2026.</span></div>
 <div class="faq-list">
-<div class="faq-item open"><button class="faq-question" type="button"><span>참가 신청만 하면 바로 참석할 수 있나요?</span><span class="faq-icon">+</span></button><div class="faq-answer"><p>신청 접수 후 운영팀에서 신청 내용을 확인합니다. 이후 입력하신 이메일로 참석 확정 안내를 보내드리며, 필요 시 전화 또는 문자로 참석 여부를 확인할 수 있습니다.</p></div></div>
+<div class="faq-item open"><button class="faq-question" type="button"><span>참가 신청만 하면 바로 참석할 수 있나요?</span><span class="faq-icon">+</span></button><div class="faq-answer"><p>아니요. 참가 신청 접수 후 운영팀에서 신청 내용을 확인하며, 참석 확정 안내를 받은 분에 한해 행사에 참가할 수 있습니다. 확정 안내는 입력하신 이메일로 발송되며, 필요한 경우 전화 또는 문자로 참석 여부를 확인합니다.</p></div></div>
 <div class="faq-item"><button class="faq-question" type="button"><span>참가비가 있나요?</span><span class="faq-icon">+</span></button><div class="faq-answer"><p>EWK 2026은 무료로 진행됩니다. 사전 신청과 참석 확인이 필요하며, 행사 공간 운영 상황에 따라 신청이 사전에 마감될 수 있습니다.</p></div></div>
 <div class="faq-item"><button class="faq-question" type="button"><span>동반 참석자는 함께 입장할 수 있나요?</span><span class="faq-icon">+</span></button><div class="faq-answer"><p>참석을 희망하는 모든 분은 개별 신청이 필요합니다. 동반 참석자를 포함하여 1인 1건으로 각각 신청해 주세요.</p></div></div>
 <div class="faq-item"><button class="faq-question" type="button"><span>네트워킹 리셉션과 디너는 누구나 참여할 수 있나요?</span><span class="faq-icon">+</span></button><div class="faq-answer"><p>행사 참석자를 대상으로 진행되며, 운영 준비를 위해 참석 의사를 별도로 확인할 수 있습니다.</p></div></div>
@@ -217,6 +248,12 @@
 </div>
 </section>
 </main>
+<section aria-label="ENCY KOREA 공식 홈페이지" class="official-site-strip">
+<div class="container official-site-strip-inner">
+<div class="official-site-strip-copy"><strong>ENCY에 대해 더 자세히 알아보세요!</strong></div>
+<a class="btn btn-ghost btn-sm" href="https://www.encycadcam.co.kr/" rel="noopener" target="_blank">ENCY KOREA 공식 홈페이지</a>
+</div>
+</section>
 <footer class="site-footer">
 <div class="container">
 <div class="footer-top">
@@ -434,61 +471,17 @@
             const embedUrl = buildYouTubeEmbedUrl(watchUrl);
             if (!watchUrl || !embedUrl) return;
 
-            const controls = document.createElement('div');
-            controls.className = 'video-overlay-controls';
-            controls.innerHTML = `
-              <button type="button" class="video-play-button" aria-label="영상 재생">
-                <span aria-hidden="true">▶</span>
-                <span>영상 재생</span>
-              </button>
-              <a class="video-youtube-link" href="${watchUrl}" target="_blank" rel="noopener noreferrer">
-                YouTube에서 보기
-              </a>
-            `;
-            slot.appendChild(controls);
+            const iframe = document.createElement('iframe');
+            iframe.src = embedUrl;
+            iframe.title = slot.getAttribute('aria-label') || 'EWK 2026 video';
+            iframe.loading = 'lazy';
+            iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+            iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+            iframe.allowFullscreen = true;
 
-            const playVideo = () => {
-              const isProductionHost =
-                /(^|\.)encycadcam\.co\.kr$/i.test(window.location.hostname);
-
-              // 다운로드 HTML, 샌드박스 미리보기, 로컬 파일 환경은
-              // YouTube가 요구하는 정상적인 Referer를 제공하지 못할 수 있으므로
-              // 오류 153을 피하기 위해 공식 YouTube 페이지로 이동합니다.
-              if (!isProductionHost) {
-                const notice = slot.querySelector('.video-preview-notice');
-                if (notice) {
-                  notice.classList.add('show');
-                  window.setTimeout(() => notice.classList.remove('show'), 2600);
-                }
-                return;
-              }
-
-              if (slot.dataset.loaded === 'true') return;
-              slot.dataset.loaded = 'true';
-
-              const iframe = document.createElement('iframe');
-              iframe.src = embedUrl;
-              iframe.title = 'EWK 2026 video';
-              iframe.loading = 'eager';
-              iframe.referrerPolicy = 'strict-origin-when-cross-origin';
-              iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
-              iframe.allowFullscreen = true;
-
-              slot.innerHTML = '';
-              slot.appendChild(iframe);
-            };
-
-            slot.querySelector('.video-play-button')?.addEventListener('click', event => {
-              event.stopPropagation();
-              playVideo();
-            });
-
-            slot.addEventListener('keydown', event => {
-              if (event.key === 'Enter' || event.key === ' ') {
-                event.preventDefault();
-                playVideo();
-              }
-            });
+            slot.innerHTML = '';
+            slot.dataset.loaded = 'true';
+            slot.appendChild(iframe);
           });
 
           const onScroll = () => {
@@ -510,20 +503,79 @@
             menuBtn.setAttribute('aria-expanded', 'false');
           }));
 
-          let slideIndex = 0;
           const mediaTrack = document.getElementById('mediaTrack');
-          const slides = [...document.querySelectorAll('.media-slide')];
-          const updateSlider = () => {
-            if (!mediaTrack || !slides.length) return;
-            const gap = 18;
-            const width = slides[0].getBoundingClientRect().width + gap;
-            const maxIndex = Math.max(0, slides.length - (window.innerWidth < 760 ? 1 : 1.45));
-            slideIndex = Math.max(0, Math.min(slideIndex, Math.ceil(maxIndex)));
-            mediaTrack.style.transform = `translateX(${-slideIndex * width}px)`;
+          const nextSlideButton = document.getElementById('nextSlide');
+          const prevSlideButton = document.getElementById('prevSlide');
+          let isSliding = false;
+
+          const getSlideStep = () => {
+            const firstSlide = mediaTrack?.querySelector('.media-slide');
+            if (!firstSlide) return 0;
+            const styles = window.getComputedStyle(mediaTrack);
+            const gap = parseFloat(styles.columnGap || styles.gap || '0') || 0;
+            return firstSlide.getBoundingClientRect().width + gap;
           };
-          document.getElementById('nextSlide').addEventListener('click', () => { slideIndex += 1; updateSlider(); });
-          document.getElementById('prevSlide').addEventListener('click', () => { slideIndex -= 1; updateSlider(); });
-          window.addEventListener('resize', updateSlider);
+
+          const finishTrackTransition = (callback) => {
+            const onTransitionEnd = event => {
+              if (event.target !== mediaTrack || event.propertyName !== 'transform') return;
+              mediaTrack.removeEventListener('transitionend', onTransitionEnd);
+              callback();
+            };
+            mediaTrack.addEventListener('transitionend', onTransitionEnd);
+          };
+
+          const moveToNextSlide = () => {
+            if (!mediaTrack || isSliding || mediaTrack.children.length < 2) return;
+            const step = getSlideStep();
+            if (!step) return;
+
+            isSliding = true;
+            mediaTrack.style.transition = 'transform .55s cubic-bezier(.2,.7,.2,1)';
+            mediaTrack.style.transform = `translateX(${-step}px)`;
+
+            finishTrackTransition(() => {
+              mediaTrack.style.transition = 'none';
+              mediaTrack.appendChild(mediaTrack.firstElementChild);
+              mediaTrack.style.transform = 'translateX(0)';
+              mediaTrack.getBoundingClientRect();
+              mediaTrack.style.transition = '';
+              isSliding = false;
+            });
+          };
+
+          const moveToPreviousSlide = () => {
+            if (!mediaTrack || isSliding || mediaTrack.children.length < 2) return;
+            const step = getSlideStep();
+            if (!step) return;
+
+            isSliding = true;
+            mediaTrack.style.transition = 'none';
+            mediaTrack.insertBefore(mediaTrack.lastElementChild, mediaTrack.firstElementChild);
+            mediaTrack.style.transform = `translateX(${-step}px)`;
+            mediaTrack.getBoundingClientRect();
+
+            mediaTrack.style.transition = 'transform .55s cubic-bezier(.2,.7,.2,1)';
+            requestAnimationFrame(() => {
+              mediaTrack.style.transform = 'translateX(0)';
+            });
+
+            finishTrackTransition(() => {
+              mediaTrack.style.transition = '';
+              isSliding = false;
+            });
+          };
+
+          nextSlideButton?.addEventListener('click', moveToNextSlide);
+          prevSlideButton?.addEventListener('click', moveToPreviousSlide);
+          window.addEventListener('resize', () => {
+            if (!mediaTrack) return;
+            mediaTrack.style.transition = 'none';
+            mediaTrack.style.transform = 'translateX(0)';
+            mediaTrack.getBoundingClientRect();
+            mediaTrack.style.transition = '';
+            isSliding = false;
+          });
 
           document.querySelectorAll('.faq-question').forEach(button => {
             button.addEventListener('click', () => {
@@ -547,6 +599,69 @@
           });
 
           const form = document.getElementById('registrationForm');
+
+          // 주소 검색: Daum 우편번호 서비스
+          const addressInput = document.getElementById('address');
+          const detailAddressInput = document.getElementById('detailAddress');
+          const roadAddressInput = document.getElementById('roadAddress');
+          const jibunAddressInput = document.getElementById('jibunAddress');
+          const zipcodeInput = document.getElementById('zipcode');
+          const addressSearchButton = document.getElementById('addressSearchButton');
+
+          const loadDaumPostcode = () => new Promise((resolve, reject) => {
+            if (window.daum?.Postcode) {
+              resolve();
+              return;
+            }
+
+            const existingScript = document.querySelector('script[data-ewk2026-daum-postcode]');
+            if (existingScript) {
+              existingScript.addEventListener('load', resolve, { once: true });
+              existingScript.addEventListener(
+                'error',
+                () => reject(new Error('주소 검색 서비스를 불러오지 못했습니다.')),
+                { once: true }
+              );
+              return;
+            }
+
+            const script = document.createElement('script');
+            script.src = 'https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js';
+            script.async = true;
+            script.dataset.ewk2026DaumPostcode = 'true';
+            script.onload = resolve;
+            script.onerror = () => reject(new Error('주소 검색 서비스를 불러오지 못했습니다.'));
+            document.head.appendChild(script);
+          });
+
+          addressSearchButton?.addEventListener('click', async () => {
+            try {
+              await loadDaumPostcode();
+
+              new window.daum.Postcode({
+                oncomplete: (data) => {
+                  const roadAddress = data.roadAddress || '';
+                  const jibunAddress = data.jibunAddress || data.autoJibunAddress || '';
+                  const baseAddress = roadAddress || jibunAddress;
+
+                  if (addressInput) addressInput.value = baseAddress;
+                  if (roadAddressInput) roadAddressInput.value = roadAddress;
+                  if (jibunAddressInput) jibunAddressInput.value = jibunAddress;
+                  if (zipcodeInput) zipcodeInput.value = data.zonecode || '';
+
+                  detailAddressInput?.focus();
+                }
+              }).open();
+
+            } catch (error) {
+              console.error(error);
+              window.alert(
+                error?.message ||
+                '주소 검색 서비스를 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.'
+              );
+            }
+          });
+
           const modal = document.getElementById('successModal');
           const closeModal = document.getElementById('closeModal');
           const close = () => { modal.classList.remove('show'); document.body.classList.remove('modal-open'); };
@@ -577,6 +692,11 @@
             company: form.elements.company?.value.trim() || '',
             email: form.elements.email?.value.trim() || '',
             phone: form.elements.phone?.value.trim() || '',
+            address: `${form.elements.address?.value.trim() || ''}${form.elements.detail_address?.value.trim() ? ` ${form.elements.detail_address.value.trim()}` : ''}`,
+            road_address: form.elements.road_address?.value.trim() || '',
+            jibun_address: form.elements.jibun_address?.value.trim() || '',
+            detail_address: form.elements.detail_address?.value.trim() || '',
+            zipcode: form.elements.zipcode?.value.trim() || '',
             job: form.elements.job?.value.trim() || '',
 
             interest: getSelectedValues('interest'),
@@ -603,6 +723,13 @@
 
             let valid = form.checkValidity();
 
+            if (!form.elements.address?.value.trim()) {
+              valid = false;
+              addressInput?.classList.add('address-invalid');
+            } else {
+              addressInput?.classList.remove('address-invalid');
+            }
+
             form.querySelectorAll('[data-required-group]').forEach(group => {
               const checked = group.querySelector('input[type="checkbox"]:checked');
               group.style.outline = checked ? '' : '1px solid rgba(255,98,98,.8)';
@@ -613,6 +740,16 @@
 
             if (!valid) {
               form.reportValidity();
+
+              if (!form.elements.address?.value.trim()) {
+                addressInput?.scrollIntoView({
+                  behavior: 'smooth',
+                  block: 'center'
+                });
+                window.setTimeout(() => addressSearchButton?.focus(), 350);
+                return;
+              }
+
               const firstInvalid =
                 form.querySelector(':invalid') ||
                 form.querySelector('[data-required-group][style*="outline"]');
