@@ -127,11 +127,11 @@
 
 <div class="agenda-row">
 <time class="agenda-time">13:20-14:40</time>
-<div class="agenda-title">제조 프로그래밍의 새로운 기준: ENCY CAM<div class="agenda-detail">ENCY CAM 소개 · Fusion 3D 설계 연계 · 턴밀 및 5축 가공</div><div class="agenda-speaker">강준 팀장 · 조정혜 매니저 · 김영재 매니저</div></div>
+<div class="agenda-title">제조 프로그래밍의 새로운 기준: ENCY CAM<div class="agenda-detail"><span>- ENCY CAM 소개</span><span>- Fusion 3D 설계 연계</span><span>- 턴밀 및 5축 가공</span></div><div class="agenda-speaker">강준 팀장 · 조정혜 매니저 · 김영재 매니저</div></div>
 <span class="agenda-type">Session</span>
 </div>
 
-<div class="agenda-row">
+<div class="agenda-row break-row">
 <time class="agenda-time">14:40-14:55</time>
 <div class="agenda-title">Coffee Break</div>
 <span class="agenda-type">Break</span>
@@ -143,7 +143,7 @@
 <span class="agenda-type">Keynote</span>
 </div>
 
-<div class="agenda-row">
+<div class="agenda-row keynote">
 <time class="agenda-time">15:45-16:15</time>
 <div class="agenda-title">로봇 자동화의 새로운 가능성: ENCY Hyper<div class="agenda-detail">ENCY Hyper 기술 및 개발 방향</div><div class="agenda-speaker">Ilnar Galiullin</div></div>
 <span class="agenda-type">Special Session</span>
@@ -158,11 +158,11 @@
 
 <div class="agenda-row">
 <time class="agenda-time">16:15-16:55</time>
-<div class="agenda-title">제조 자동화, 현장에서 답을 찾다: ENCY Hyper<div class="agenda-detail">ENCY Hyper 데모 · ENCY 고객 적용 사례</div><div class="agenda-speaker">김연주 매니저</div></div>
+<div class="agenda-title">제조 자동화, 현장에서 답을 찾다: ENCY Hyper<div class="agenda-detail"><span>- ENCY Hyper 데모</span><span>- ENCY 고객 적용 사례</span></div><div class="agenda-speaker">김연주 매니저</div></div>
 <span class="agenda-type">Session</span>
 </div>
 
-<div class="agenda-row">
+<div class="agenda-row break-row">
 <time class="agenda-time">16:55-17:10</time>
 <div class="agenda-title">Coffee Break</div>
 <span class="agenda-type">Break</span>
@@ -170,19 +170,19 @@
 
 <div class="agenda-row">
 <time class="agenda-time">17:10-17:55</time>
-<div class="agenda-title">데이터로 관리되는 공장: YC Solution<div class="agenda-detail">에너지 관리 (넥스트카본) · 영업 관리 (스마트대쉬) · 안전 관리 자동화 (넥스트세이프)</div><div class="agenda-speaker">정다빈 팀장 · 황경호 매니저 · 김민준 매니저 · 문영식 매니저 · 김형기 매니저</div></div>
+<div class="agenda-title">데이터로 관리되는 공장: YC Solution<div class="agenda-detail"><span>- 에너지 관리 (넥스트카본)</span><span>- 영업 관리 (스마트대쉬)</span><span>- 안전 관리 자동화 (넥스트세이프)</span></div><div class="agenda-speaker">정다빈 팀장 · 황경호 매니저 · 김민준 매니저 · 문영식 매니저 · 김형기 매니저</div></div>
 <span class="agenda-type">Session</span>
 </div>
 
 <div class="agenda-row">
 <time class="agenda-time">17:55-18:35</time>
-<div class="agenda-title">함께 만드는 제조의 미래: YC Partner<div class="agenda-detail">YC 파트너 정책 · 파트너 세레머니 · 우수 고객사 시상 · Lucky Draw</div><div class="agenda-speaker">김유천 대표이사</div></div>
+<div class="agenda-title">함께 만드는 제조의 미래: YC Partner<div class="agenda-detail"><span>- YC 파트너 정책</span><span>- 파트너 세레머니</span><span>- 우수 고객사 시상</span><span>- Lucky Draw</span></div><div class="agenda-speaker">김유천 대표이사</div></div>
 <span class="agenda-type">Session</span>
 </div>
 
 <div class="agenda-row">
 <time class="agenda-time">18:35-20:00</time>
-<div class="agenda-title">네트워킹 리셉션 및 디너<div class="agenda-speaker">전원</div></div>
+<div class="agenda-title">네트워킹 리셉션 및 디너<div class="agenda-speaker">참석 희망자</div></div>
 <span class="agenda-type">Networking</span>
 </div>
 
