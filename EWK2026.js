@@ -107,7 +107,89 @@
 <section class="section section-dark program-centered" id="program">
 <div class="container">
 <div><h2 class="section-title small">EWK 2026 일정</h2></div>
-<div class="agenda-columns"><div class="agenda-panel"><div class="agenda-panel-head">SESSION 01 · 12:30-15:10</div><div class="agenda-wrap"><div class="agenda-row"><time class="agenda-time">12:30-13:00</time><div class="agenda-title">참가자 등록<span class="agenda-en">Registration</span></div><span class="agenda-type">Welcome</span></div><div class="agenda-row"><time class="agenda-time">13:00-13:20</time><div class="agenda-title">환영사 및 YC 소개<span class="agenda-en">Welcome &amp; YC Introduction</span></div><span class="agenda-type">Opening</span></div><div class="agenda-row"><time class="agenda-time">13:20-13:40</time><div class="agenda-title">축하 행사<span class="agenda-en">Celebration Performance</span></div><span class="agenda-type">Special</span></div><div class="agenda-row"><time class="agenda-time">13:40-14:10</time><div class="agenda-title">ENCY CAM 프로그램 개요 및 적용 분야<span class="agenda-en">ENCY CAM Overview &amp; Applications</span></div><span class="agenda-type">Session</span></div><div class="agenda-row"><time class="agenda-time">14:10-14:40</time><div class="agenda-title">ENCY CAM 턴밀 및 5축 가공 데모<span class="agenda-en">Turn-Mill &amp; 5-Axis Demonstration</span></div><span class="agenda-type">Demo</span></div><div class="agenda-row"><time class="agenda-time">14:40-15:00</time><div class="agenda-title">Autodesk Fusion 설계 + ENCY CAM 데모<span class="agenda-en">Autodesk Fusion to ENCY CAM</span></div><span class="agenda-type">Demo</span></div><div class="agenda-row"><time class="agenda-time">15:00-15:10</time><div class="agenda-title">Coffee Break<span class="agenda-en">Refreshment Break</span></div><span class="agenda-type">Break</span></div></div></div><div class="agenda-panel"><div class="agenda-panel-head">SESSION 02 · 15:10-20:00</div><div class="agenda-wrap"><div class="agenda-row"><time class="agenda-time">15:10-15:30</time><div class="agenda-title">ENCY Hyper 데모<span class="agenda-en">ENCY Hyper Demonstration</span></div><span class="agenda-type">Demo</span></div><div class="agenda-row"><time class="agenda-time">15:30-16:15</time><div class="agenda-title">YC 솔루션 소개<span class="agenda-en">YC Solution Showcase</span></div><span class="agenda-type">Showcase</span></div><div class="agenda-row"><time class="agenda-time">16:15-16:35</time><div class="agenda-title">ENCY 도입 및 활용 사례<span class="agenda-en">ENCY Customer Use Cases</span></div><span class="agenda-type">Case Study</span></div><div class="agenda-row"><time class="agenda-time">16:35-16:50</time><div class="agenda-title">Coffee Break<span class="agenda-en">Refreshment Break</span></div><span class="agenda-type">Break</span></div><div class="agenda-row keynote"><time class="agenda-time">16:50-17:20</time><div class="agenda-title">ENCY 3.0 Global Launch Keynote<span class="agenda-en">ENCY Software Global Leadership</span></div><span class="agenda-type">Keynote</span></div><div class="agenda-row"><time class="agenda-time">17:20-17:30</time><div class="agenda-title">YC 파트너 정책 소개<span class="agenda-en">YC Partner Program</span></div><span class="agenda-type">Partner</span></div><div class="agenda-row"><time class="agenda-time">17:30-18:00</time><div class="agenda-title">파트너 세레머니, 우수 고객사 시상 및 럭키드로우<span class="agenda-en">Ceremony, Awards &amp; Lucky Draw</span></div><span class="agenda-type">Closing</span></div><div class="agenda-row"><time class="agenda-time">18:00-20:00</time><div class="agenda-title">네트워킹 리셉션 및 디너<span class="agenda-en">Networking Reception &amp; Dinner</span></div><span class="agenda-type">Networking</span></div></div></div></div>
+<div class="agenda-columns">
+
+<div class="agenda-panel">
+<div class="agenda-panel-head">SESSION 01 · 12:30-16:15</div>
+<div class="agenda-wrap">
+
+<div class="agenda-row">
+<time class="agenda-time">12:30-13:00</time>
+<div class="agenda-title">참가자 등록<div class="agenda-speaker">운영팀</div></div>
+<span class="agenda-type">Registration</span>
+</div>
+
+<div class="agenda-row">
+<time class="agenda-time">13:00-13:20</time>
+<div class="agenda-title">Welcome to EWK 2026 : 환영사 및 YC 소개<div class="agenda-speaker">김유천 대표이사</div></div>
+<span class="agenda-type">Opening</span>
+</div>
+
+<div class="agenda-row">
+<time class="agenda-time">13:20-14:40</time>
+<div class="agenda-title">제조 프로그래밍의 새로운 기준: ENCY CAM<div class="agenda-detail">ENCY CAM 소개 · Fusion 3D 설계 연계 · 턴밀 및 5축 가공</div><div class="agenda-speaker">강준 팀장 · 조정혜 매니저 · 김영재 매니저</div></div>
+<span class="agenda-type">Session</span>
+</div>
+
+<div class="agenda-row">
+<time class="agenda-time">14:40-14:55</time>
+<div class="agenda-title">Coffee Break</div>
+<span class="agenda-type">Break</span>
+</div>
+
+<div class="agenda-row keynote">
+<time class="agenda-time">14:55-15:45</time>
+<div class="agenda-title">제조 프로그래밍의 다음 단계: ENCY 3.0<div class="agenda-detail">ENCY 3.0 Global Launch Keynote</div><div class="agenda-speaker">Andrei Kharatsidi</div></div>
+<span class="agenda-type">Keynote</span>
+</div>
+
+<div class="agenda-row">
+<time class="agenda-time">15:45-16:15</time>
+<div class="agenda-title">로봇 자동화의 새로운 가능성: ENCY Hyper<div class="agenda-detail">ENCY Hyper 기술 및 개발 방향</div><div class="agenda-speaker">Ilnar Galiullin</div></div>
+<span class="agenda-type">Special Session</span>
+</div>
+
+</div>
+</div>
+
+<div class="agenda-panel">
+<div class="agenda-panel-head">SESSION 02 · 16:15-20:00</div>
+<div class="agenda-wrap">
+
+<div class="agenda-row">
+<time class="agenda-time">16:15-16:55</time>
+<div class="agenda-title">제조 자동화, 현장에서 답을 찾다: ENCY Hyper<div class="agenda-detail">ENCY Hyper 데모 · ENCY 고객 적용 사례</div><div class="agenda-speaker">김연주 매니저</div></div>
+<span class="agenda-type">Session</span>
+</div>
+
+<div class="agenda-row">
+<time class="agenda-time">16:55-17:10</time>
+<div class="agenda-title">Coffee Break</div>
+<span class="agenda-type">Break</span>
+</div>
+
+<div class="agenda-row">
+<time class="agenda-time">17:10-17:55</time>
+<div class="agenda-title">데이터로 관리되는 공장: YC Solution<div class="agenda-detail">에너지 관리 (넥스트카본) · 영업 관리 (스마트대쉬) · 안전 관리 자동화 (넥스트세이프)</div><div class="agenda-speaker">정다빈 팀장 · 황경호 매니저 · 김민준 매니저 · 문영식 매니저 · 김형기 매니저</div></div>
+<span class="agenda-type">Session</span>
+</div>
+
+<div class="agenda-row">
+<time class="agenda-time">17:55-18:35</time>
+<div class="agenda-title">함께 만드는 제조의 미래: YC Partner<div class="agenda-detail">YC 파트너 정책 · 파트너 세레머니 · 우수 고객사 시상 · Lucky Draw</div><div class="agenda-speaker">김유천 대표이사</div></div>
+<span class="agenda-type">Session</span>
+</div>
+
+<div class="agenda-row">
+<time class="agenda-time">18:35-20:00</time>
+<div class="agenda-title">네트워킹 리셉션 및 디너<div class="agenda-speaker">전원</div></div>
+<span class="agenda-type">Networking</span>
+</div>
+
+</div>
+</div>
+
+</div>
 <p class="hero-note">프로그램과 세부 운영 시간은 행사 준비 상황에 따라 일부 변경될 수 있습니다.</p>
 </div>
 </section>
@@ -118,7 +200,7 @@
 </div>
 <div aria-label="EWK 2026 공식 포스터" class="poster-gallery">
 <figure class="poster-card"><img alt="EWK 2026 공식 포스터 메인 비주얼" loading="lazy" src="https://ik.imagekit.io/smartware/26conference/ewk2026-landing/ewk2026-poster-01.jpg"/></figure>
-<figure class="poster-card"><img alt="EWK 2026 공식 포스터 행사 일정" loading="lazy" src="https://ik.imagekit.io/smartware/26conference/ewk2026-landing/ewk2026-poster-02.jpg"/></figure>
+<figure class="poster-card"><img alt="EWK 2026 공식 프로그램 및 일정" loading="lazy" src="https://ik.imagekit.io/smartware/26conference/ewk2026-landing/ewk2026-poster-timetable-kor.jpg"/></figure>
 </div>
 <p aria-hidden="true" class="poster-swipe-hint">옆으로 넘겨 확인하세요 <span>→</span></p>
 <div class="poster-download-wrap"><a class="btn btn-dark poster-download" href="https://drive.google.com/file/d/1OXlbHOwe2LM6Z7J1F_E-fkbGS4HM8BzW/view?usp=sharing" rel="noopener noreferrer" target="_blank">공식 포스터 PDF 다운로드 <span class="arrow">↗</span></a></div>
