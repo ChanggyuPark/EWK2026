@@ -170,7 +170,7 @@
 
 <div class="agenda-row">
 <time class="agenda-time">17:10-17:55</time>
-<div class="agenda-title">데이터로 관리되는 공장: YC Solution<div class="agenda-detail"><span>- 에너지 관리 (넥스트카본)</span><span>- 영업 관리 (스마트대쉬)</span><span>- 안전 관리 자동화 (넥스트세이프)</span></div><div class="agenda-speaker">정다빈 팀장 · 황경호 매니저 · 김민준 매니저 · 문영식 매니저 · 김형기 매니저</div></div>
+<div class="agenda-title">데이터로 관리되는 공장: YC Solution<div class="agenda-detail"><span>- 에너지 관리 (넥스트카본)</span><span>- 업무 통합 관리 (스마트대쉬)</span><span>- 안전 관리 자동화 (넥스트세이프)</span></div><div class="agenda-speaker">정다빈 팀장 · 황경호 매니저 · 김민준 매니저 · 문영식 매니저 · 김형기 매니저</div></div>
 <span class="agenda-type">Session</span>
 </div>
 
